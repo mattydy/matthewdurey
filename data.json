@@ -1,0 +1,121 @@
+{
+    "portfolio": [
+        {
+            "id": 0,
+            "slug": "executive-coaching-consultancy",
+            "title": "Executive Coaching Consultancy",
+            "image": "/images/executive-coaching-consultancy.png",
+            "services": "WordPress, SEO",
+            "color": "#ffa800",
+            "subHeading": "Executive Coaching Consultancy provide support to clients as they progress toward being equitable workplaces.",
+            "url": "https://executive-coaching.co.uk/",
+            "intro": "I built the Executive Coaching Consultancy while working for Go Up. The Client's website was using the classic version of WordPress which meant they could not easily change the content/layout of their website without contacting a developer. They wanted Go Up to rebuild the website within Gutenburg so they could customise it as needed.",
+            "conclusion": "Converting the Executive Coaching Consultancy website from Classic Editor to the Gutenburg Editor allowed the client to make changes to their website without needing to contact a developer, saving the company time and money.",
+            "getInTouch": "Have an issue like Executive Coaching Consultancy faced?"
+        },
+        {
+            "id": 1,
+            "slug": "pitch",
+            "title": "Pitch",
+            "image": "/images/pitch.png",
+            "services": "WordPress, SEO",
+            "color": "#eaff00",
+            "subHeading": "Pitch is an integrated communications agency building brands people can be passionate about.",
+            "url": "https://executive-coaching.co.uk/",
+            "intro": "I built the Executive Coaching Consultancy while working for Go Up. The Client's website was using the classic version of WordPress which meant they could not easily change the content/layout of their website without contacting a developer. They wanted Go Up to rebuild the website within Gutenburg so they could customise it as needed.",
+            "conclusion": "Converting the Executive Coaching Consultancy website from Classic Editor to the Gutenburg Editor allowed the client to make changes to their website without needing to contact a developer, saving the company time and money.",
+            "getInTouch": "Have an issue like Executive Coaching Consultancy faced?"
+        },
+        {
+            "id": 2,
+            "slug": "crash-charity",
+            "title": "Crash Charity",
+            "image": "/images/crash.png",
+            "services": "WordPress, SEO",
+            "color": "#e30613",
+            "subHeading": "Crash are an organisation who help homelessness charities and hospices with vital construction projects.",
+            "url": "https://crash.org.uk",
+            "intro": "I built the Crash Charity website while working for Go Up.",
+            "conclusion": "This is the conclusion",
+            "getInTouch": "Like this website?"
+        },
+        {
+            "id": 3,
+            "slug": "auditstar",
+            "title": "Auditstar",
+            "image": "/images/auditstar.png",
+            "services": "WordPress, SEO",
+            "color": "#44C7F4",
+            "subHeading": "Auditstar",
+            "url": "https://auditstar.co.uk/",
+            "intro": "I built the Auditstar website while working for Go Up.",
+            "conclusion": "This is the conclusion",
+            "getInTouch": "Like this website?"
+        },
+        {
+            "id": 4,
+            "slug": "natural-high-safaris",
+            "title": "Natural High Safaris",
+            "image": "/images/natural-high-safaris.png",
+            "services": "WordPress, SEO",
+            "color": "#d74223",
+            "subHeading": "Auditstar",
+            "url": "https://auditstar.co.uk/",
+            "intro": "I built the Auditstar website while working for Go Up.",
+            "conclusion": "This is the conclusion",
+            "getInTouch": "Like this website?"
+        },
+        {
+            "id": 5,
+            "slug": "aq-revolution",
+            "title": "AQ Revolution",
+            "image": "/images/aq-revolution.png",
+            "services": "WordPress, Web Design, SEO",
+            "color": "#787878",
+            "subHeading": "Aq Revolution",
+            "url": "https://auditstar.co.uk/",
+            "intro": "I built the Auditstar website while working for Go Up.",
+            "conclusion": "This is the conclusion",
+            "getInTouch": "Like this website?"
+        },
+        {
+            "id": 6,
+            "slug": "hatton-adventure-world",
+            "title": "Hatton Adventure World",
+            "image": "/images/hatton-adventure-world.png",
+            "services": "WordPress",
+            "color": "#96c22f",
+            "subHeading": "Aq Revolution",
+            "url": "https://auditstar.co.uk/",
+            "intro": "I built the Auditstar website while working for Go Up.",
+            "conclusion": "This is the conclusion",
+            "getInTouch": "Like this website?"
+        },
+        {
+            "id": 7,
+            "slug": "hatton-shopping-village",
+            "title": "Hatton Shopping Village",
+            "image": "/images/hatton-shopping-village.png",
+            "services": "WordPress",
+            "color": "#222540",
+            "subHeading": "Aq Revolution",
+            "url": "https://shoppingvillage.hattonworld.com/",
+            "intro": "I built the Auditstar website while working for Go Up.",
+            "conclusion": "This is the conclusion",
+            "getInTouch": "Like this website?"
+        },
+        {
+            "id": 8,
+            "slug": "hatton-estate",
+            "title": "Hatton Estate",
+            "image": "/images/hatton-estate.png",
+            "services": "WordPress",
+            "color": "#91abbd",
+            "subHeading": "Aq Revolution",
+            "url": "https://auditstar.co.uk/",
+            "intro": "I built the Auditstar website while working for Go Up.",
+            "conclusion": "This is the conclusion",
+            "getInTouch": "Like this website?"
+        }
+    ]
+}

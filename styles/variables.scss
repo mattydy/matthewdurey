@@ -1,0 +1,29 @@
+//Breakpoints
+//Breakpoints
+$widthBreakpoints: (
+    '576': 576px,
+    '768': 768px,
+    '992': 992px,
+    '1200': 1200px,
+    '1400': 1400px,
+) !default;
+
+$heightBreakpoints: (
+    '800': 800px,
+) !default;
+
+@mixin screen-width($breakpoint) {
+    @if map-has-key($map: $widthBreakpoints, $key: $breakpoint ) {
+        @media (min-width: map-get($widthBreakpoints, $breakpoint)) {
+            @content;
+        }
+    }
+}
+
+@mixin small-screen($heightBreakpoint) {
+    @if map-has-key($map: $heightBreakpoints, $key: $heightBreakpoint ) {
+        @media (max-height: map-get($heightBreakpoints, $heightBreakpoint)) {
+            @content;
+        }
+    }
+}
