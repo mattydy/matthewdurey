@@ -11,11 +11,11 @@ export default function About() {
           <h2>Web Developer / Sports Addict / Keen Traveller</h2>
           <div className={styles.innerPage}>
             <div className={styles.innerPage__text}>
-            <p>I am a London based Website Developer, working with clients throughout the UK and Ireland. I develop bespoke, multi-browser, multi-device websites using WordPress, Shopify and WooCommerce. My clients range from large corporate clients to small independent traders.</p>
+            <p>I am a London based Website Developer, working with clients throughout the UK and Ireland. I develop bespoke, multi-browser, fully customisable, multi-device websites using WordPress, Shopify and WooCommerce. My clients range from large corporate clients to small independent traders.</p>
             <p>Originally from Northern Ireland, I graduated from the University of Derby with a degree in Computer Science. I moved to London in 2020.</p>
             <p>Having worked as a Web Developer for 6 years, I am now employed as a Front End Developer for Just Eat Takeaway.com.</p>
             <p>In my spare time I can usually be found on the golf course, watching Manchester United, sampling the latest craft beers or planning my next getaway.</p>
-            <p>Feel free to connect with me via LinkedIn, get in touch to talk about collaborating, or have a look through my portfolio to see what I have been working on.</p>
+            <p>Feel free to connect with me via <Link href="https://www.linkedin.com/in/matthew-durey-2511a6142"><a target="_blank">LinkedIn</a></Link>, <Link href="/contact/"><a>get in touch</a></Link> to talk about collaborating, or have a look through <Link href="/portfolio/"><a>my portfolio</a></Link> to see what I have been working on.</p>
             <div className={styles.innerPage__buttons}>
               <Link href="/portfolio">
                 <a className='white-button'>Portfolio</a>

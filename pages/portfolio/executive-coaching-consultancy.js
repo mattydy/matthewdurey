@@ -212,12 +212,37 @@ export default function Home(props) {
 
         <div className={`${styles.feature} ${styles.featureAlt}`}>
           <div className={styles.image}>
-          <Image
-                  src='/images/ecc-mega-menu.png'
+          <Swiper
+                modules={[Navigation, Pagination]}
+                navigation
+                pagination={{ clickable: true }}
+                spaceBetween={50}
+                slidesPerView={1}
+                autoHeight={true}
+                style={{
+                  "--swiper-pagination-color": "#ffa800",
+                  "--swiper-pagination-bullet-inactive-color" : 'white'
+                }}
+              >
+              <SwiperSlide>
+                  <Image
+                  src='/images/ecc/ecc-resources.png'
                   height={918}
                   width={1612}
                   alt=""
                 />
+                <span className={styles.caption}>The 'Resources' area on teh site showing the relevant categories and blog articles.</span>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <Image
+                      src='/images/ecc/ecc-work-family-you.png'
+                      height={918}
+                      width={1612}
+                      alt=""
+                    />
+                  <span className={styles.caption}>The 'Work, Family & You' area on the site, showing the Categories and Blog articles unique to this section.</span>
+                </SwiperSlide>
+            </Swiper>
           </div>
           <div className={styles.content}>
             <h4>Multiple Blog Areas</h4>

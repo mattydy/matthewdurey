@@ -29,7 +29,7 @@ export default function Home(props) {
   return (
     <div>
       <style jsx>{`
-      h1::after, h3::after {
+      h1::after, h3::after, h4::after {
         content: '';
         background: ${color};
       }
@@ -49,12 +49,136 @@ export default function Home(props) {
           </div>
       
         <div className={styles.feature}>
-          <div className={styles.image}></div>
+          
+          <div className={styles.image}>
+
+          <Swiper
+              modules={[Navigation, Pagination]}
+              navigation
+              pagination={{ clickable: true }}
+              spaceBetween={50}
+              slidesPerView={1}
+              autoHeight={true}
+              style={{
+                "--swiper-pagination-color": "#eaff00",
+                "--swiper-pagination-bullet-inactive-color" : 'white'
+              }}
+            >
+            <SwiperSlide>
+              <Image
+                  src='/images/pitch/pitch-homepage.png'
+                  // height={918}
+                  // width={1612}
+                  height={419}
+                  width={735}
+                  alt=""
+                />
+                <span className={styles.caption}>Homepage slider that allows the user to see what Pitch stand for, via text, images and videos.</span>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <Image
+                  src='/images/pitch/pitch-partnerships.png'
+                  // height={400}
+                  // width={212}
+                  height={419}
+                  width={735}
+                  alt=""
+                />
+                <span className={styles.caption}>Each Service page begins with an Image and Text</span>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <Image
+                  src='/images/pitch/pitch-highlights.png'
+                  // height={400}
+                  // width={212}
+                  height={419}
+                  width={735}
+                  alt=""
+                />
+                <span className={styles.caption}>Highlights section that allow users to navigate to the services pages</span>
+                </SwiperSlide>
+                </Swiper>
+
+          </div>
           
           <div className={styles.content}>
           <h4>Instant Impact</h4>
-          <p>One of the key features of the Pitch site is the Imagry. When you first connect to teh site you are presented with a slider of high definition images, giving the users a clear indication of the type of clientele Pitch work with.</p>
+          <p>One of the key features of the Pitch site is the Imagry and colours. When you first access the website its clear that the work and clientele Pitch work with are impressive.<br></br><br></br>This theme continues thorughout the site, the majority of the links on teh site all include a powerful image.<br></br><br></br>Within each Service the user is again presented with a large image and text related to one of the case studies related to that service.</p>
           </div>
+
+        </div>
+
+        <div className={`${styles.feature} ${styles.featureAlt}`}>
+          
+          <div className={styles.image}>
+
+          <Swiper
+              modules={[Navigation, Pagination]}
+              navigation
+              pagination={{ clickable: true }}
+              spaceBetween={50}
+              slidesPerView={1}
+              autoHeight={true}
+              style={{
+                "--swiper-pagination-color": "#eaff00",
+                "--swiper-pagination-bullet-inactive-color" : 'white'
+              }}
+            >
+            <SwiperSlide>
+              <Image
+                  src='/images/pitch/pitch-clients.png'
+                  // height={918}
+                  // width={1612}
+                  height={419}
+                  width={735}
+                  alt=""
+                />
+                <span className={styles.caption}>Client Slider located on the About Us page</span>
+                </SwiperSlide>
+                <SwiperSlide>
+                            <Image
+                  src='/images/pitch/pitch-grid.png'
+                  // height={400}
+                  // width={212}
+                  height={419}
+                  width={735}
+                  alt=""
+                />
+                <span className={styles.caption}>Case Study grid showcasing case studies and clients</span>
+                </SwiperSlide>
+                </Swiper>
+
+          </div>
+          
+          <div className={styles.content}>
+          <h4>Impressive Clients</h4>
+          <p>There are a few different ways we show the user the clients that Pitch work with. On various pages we use a use a grid layout which showcases photos and the client names. This changes on the inner services pages to only the clients related to those services.<br></br><br></br>We also have a client carousel on the About Us page which showcases the clients at once.</p>
+          </div>
+          
+        </div>
+
+        <div className={styles.feature}>
+          
+          <div className={styles.image}>
+
+          
+              <Image
+                  src='/images/pitch/pitch-history.png'
+                  // height={918}
+                  // width={1612}
+                  height={419}
+                  width={735}
+                  alt=""
+                />
+                <span className={styles.caption}>Client Slider located on the About Us page</span>
+
+          </div>
+          
+          <div className={styles.content}>
+          <h4>Full of history</h4>
+          <p>To showcase Pitches history we built a slider, complete with the year, text and imagry. The user can easily navigate teh timeline, hovering over images to get further information.</p>
+          </div>
+          
         </div>
 
       </div>

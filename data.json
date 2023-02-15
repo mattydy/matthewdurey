@@ -54,6 +54,19 @@
         },
         {
             "id": 4,
+            "slug": "nodishrespect",
+            "title": "NoDishrespect",
+            "image": "/images/nodishrespect/nodishrespect.png",
+            "services": "WordPress, SEO, WooCommerce, Web Design",
+            "color": "#A71414",
+            "subHeading": "NoDishrespect was a reciepe and food blogging website.",
+            "url": "This website is no longer online",
+            "intro": "In July 2020 I was appraoched by 2 friends who were looking to redesign and rebuild their website. Using the WP Recipe Maker plugin I helped redeisgn and rebuild the site, with a focus on high quality imagry to attract users and make the look as attractive as possible.",
+            "conclusion": "Rebuilding the NoDishrespect website enabled the client to easily upload reciepes and images, as well as allowing users to easily browse the site to find and follow the recipes with ease.",
+            "getInTouch": "Do you have a blogging website that needs a revamp?"
+        },
+        {
+            "id": 5,
             "slug": "natural-high-safaris",
             "title": "Natural High Safaris",
             "image": "/images/natural-high-safaris.png",
@@ -66,7 +79,7 @@
             "getInTouch": "Do you need a change of website to gain more enquiries?"
         },
         {
-            "id": 5,
+            "id": 6,
             "slug": "aq-revolution",
             "title": "AQ Revolution",
             "image": "/images/aq-revolution.png",
@@ -79,7 +92,7 @@
             "getInTouch": "Want to get your companies message out there?"
         },
         {
-            "id": 6,
+            "id": 7,
             "slug": "hatton-adventure-world",
             "title": "Hatton Adventure World",
             "image": "/images/hatton-adventure-world.png",
@@ -92,12 +105,12 @@
             "getInTouch": "Like this website?"
         },
         {
-            "id": 7,
+            "id": 8,
             "slug": "hatton-shopping-village",
             "title": "Hatton Shopping Village",
             "image": "/images/hatton-shopping-village.png",
             "services": "WordPress",
-            "color": "#222540",
+            "color": "#3d4373",
             "subHeading": "Hatton Shopping Village are part of the Hatton Country Park based in Hatton. This website is for the Shopping Village located there.",
             "url": "https://shoppingvillage.hattonworld.com/",
             "intro": "I built the Hatton Shopping Village website while working for Kuki Digital. Hatton Country World were a long time client of Kuki and wanted to bring all their websites together with the same design.",
@@ -105,7 +118,7 @@
             "getInTouch": "Like this website?"
         },
         {
-            "id": 8,
+            "id": 9,
             "slug": "hatton-estate",
             "title": "Hatton Estate",
             "image": "/images/hatton-estate.png",

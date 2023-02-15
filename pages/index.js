@@ -31,7 +31,7 @@ export default function Home() {
               <Link href="/portfolio">
                 <a className='white-button'>Portfolio</a>
               </Link>
-              <Link href="/contact">
+              <Link href="/services">
                 <a className='white-button'>Services</a>
               </Link>
               <Link href="/contact">
