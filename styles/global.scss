@@ -1,7 +1,7 @@
 @import './variables.scss';
 
 body{
-  background: #000;
+  background: #222222;
   margin: 0;
 }
 
@@ -14,11 +14,12 @@ body{
 
 h1, h2, h3, h4, p {
   margin: 0 auto;
-  color: #fff;
+  color: #f2f2f2;
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Architects Daughter', cursive;
+  // font-family: 'Architects Daughter', cursive;
+  font-family: "Poppins", sans-serif;
 }
 
 h1, h3, h4 {
@@ -27,11 +28,12 @@ h1, h3, h4 {
 
   &:after {
     display: block;
-    widtH: 33.33%;
+    widtH: 100%;
     height: 1px;
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 7px;
+    z-indeX: -1px;
   }
 }
 
@@ -45,7 +47,7 @@ p, a {
 
 a {
   text-decoration: none;
-  color: white;
+  color: #f2f2f2;
 
   &:hover {
     text-decoration: underline;
@@ -54,7 +56,7 @@ a {
 
 h1 {
   font-size: 32px;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 44px;
   margin-bottom: 30px;
 
@@ -72,7 +74,7 @@ h1 {
 }
 
 h2 {
-  font-weight: 400;
+  font-weight: 700;
   font-size: 24px;
   line-height: 33px;
   margin-bottom: 39px;
@@ -94,6 +96,7 @@ h3 {
   font-size: 20px;
   line-height: 30px;
   margin-bottom: 15px;
+  font-weight: 400;
 
   @include screen-width('768') {
     font-size: 26px;
@@ -105,6 +108,8 @@ h4 {
   font-size: 16px;
   line-height: 26px;
   margin-bottom: 10px;
+  font-weight: 400;
+
 
   @include screen-width('768') {
     font-size: 22px;
@@ -117,8 +122,8 @@ p {
   line-height: 15px;
 
   @include screen-width('768') {
-    line-height: 25px;
-    font-size: 15px;
+    line-height: 26px;
+    font-size: 16px;
   }
 
   &.large {
@@ -131,28 +136,29 @@ p {
 
 .white-button {
   font-weight: 400;
-  bordeR: 1px solid black;
+  bordeR: 1px solid #222222;
   padding: 15px 18px;
   text-decoration: none;
-  color: #000;
+  color: #222222;
   transition: all 0.25s ease-in-out;
   font-size: 18px;
   line-height: 28px;
-  background: #fff;
+  background: #f2f2f2;
   border-radius: 13px;
-  font-family: 'Architects Daughter', cursive;
+  // font-family: 'Architects Daughter', cursive;
+  font-family: "Poppins", sans-serif;
 
   @include screen-width('768') {
-    padding: 15px 35px;
-    font-size: 32px;
-    line-height: 44px;
+    padding: 20px 35px;
+    font-size: 25px;
+    line-height: 35px;
   }
 
   
   &:hover {
-    background: black;
-    color: white;
-    border: 1px solid white;
+    background: #222;
+    color: #f2f2f2;
+    border: 1px solid #f2f2f2;
     text-decoration: none;
   }
 }
@@ -194,7 +200,9 @@ p {
   font-size: 20px;
   line-height: 30px;
   margin: 30px auto 50px;
-  font-family: 'Architects Daughter', cursive;
+  // font-family: 'Architects Daughter', cursive;
+  font-family: "Poppins", sans-serif;
+
 
   @include screen-width('768') {
     font-size: 26px;
@@ -202,10 +210,16 @@ p {
   }
 
   a {
-    font-family: 'Architects Daughter', cursive;
+    // font-family: 'Architects Daughter', cursive;
+  font-family: "Poppins", sans-serif;
+
   }
 }
 
 .swiper-wrapper {
   margin-bottom: 50px;
+}
+
+.buttons {
+  display: block;
 }
