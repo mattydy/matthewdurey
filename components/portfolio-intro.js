@@ -26,7 +26,14 @@ export default function Footer({data }) {
                 alt=""
             />
             <p><strong>Services:</strong> {data.services}</p>
-            <p><strong>URL:</strong> <Link href={data.url}><a target="_blank">{data.url}</a></Link></p>
+            {if(data.id == 4) {
+            return (
+                <p><strong>This site is no longer active</strong></p>
+                )
+                } else {
+                return (
+                <p><strong>URL:</strong> <Link href={data.url}><a target="_blank">{data.url}</a></Link></p>
+            )}}
             </div>
             <div className={styles.intro}>
             <h3>Introduction:</h3>
