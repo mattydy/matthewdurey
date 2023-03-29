@@ -26,6 +26,8 @@ export default function Home(props) {
   const color = posts.color;
   const nextProject = props.portfolio[1];
 
+  console.log(props.general[0].highlighted)
+
   return (
     <div>
       <style jsx>{`
@@ -47,9 +49,9 @@ export default function Home(props) {
 
       <div className={styles.portfolioContent}>
         <div className={styles.highlights}>
-      <h3>Highlighted Features</h3>
-      <p>Below I have listed some key features on the website. They include parts of the website which the client whiched to change from the original design, elements that I have coded to save time and repeation and areas of the site that were key for functionality/user experience.</p>
-      </div>
+          <h3>Highlighted Features</h3>
+          <p>{props.general[0].highlighted}</p>
+        </div>
         <div className={`${styles.feature}`}>
           <div className={styles.image}>
             <Swiper
