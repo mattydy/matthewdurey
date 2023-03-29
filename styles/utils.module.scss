@@ -28,10 +28,10 @@
   max-width: 500px;
 
   @include screen-width('768') {
-    right: 25px;
-    max-widtH: 615px;
+    right: 50%;
+    max-width: 615px;
     left: unset;
-    transform: translateY(-50%);
+    transform: translate(50%, -50%);
   }
 
   .buttons {

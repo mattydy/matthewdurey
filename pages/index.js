@@ -7,9 +7,28 @@ import styles from '../styles/utils.module.scss';
 export default function Home() {
 
   return (
-    <div className="container">
+    <div>
+      <div className='background-circles'>
+        <span className='circle circle--blue circle--large'></span>
+        <Link href="/portfolio/executive-coaching-consultancy/">
+          <a className='circle circle--five'></a>
+        </Link>
+        <Link href="/portfolio/pitch/">
+          <a className='circle circle--four'></a>
+        </Link>
+        <Link href="/portfolio/crash/">
+          <a className='circle circle--three'></a>
+        </Link>
+        <Link href="/portfolio/crash/">
+          <a className='circle circle--two'></a>
+        </Link>
+        <Link href="/portfolio/crash/">
+          <a className='circle circle--one'></a>
+        </Link>
+      </div>
+      <div className="container">
       <section className={styles.homePage}>
-        <div className={styles.homeImage}>
+        {/* <div className={styles.homeImage}>
         <Image
           priority
           src="/images/matt.webp"
@@ -18,7 +37,7 @@ export default function Home() {
           width={285}
           alt=""
           />
-        </div>
+        </div> */}
 
           <div className={styles.homeContent}>
             <h1 className='large'>Matthew Durey</h1>
@@ -40,6 +59,7 @@ export default function Home() {
             </div>
           </div>
       </section>
+      </div>
     </div>
   );
 }
