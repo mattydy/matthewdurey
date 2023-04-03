@@ -1,6 +1,7 @@
 import styles from '../styles/utils.module.scss';
 import Image from 'next/image';
 import Link from 'next/link';
+import MenuToggle from './menuToggle';
 
 export default function Footer({data }) {
     return (
@@ -16,6 +17,7 @@ export default function Footer({data }) {
                 }`}
             </style>
             <h1>{data.title}</h1>
+            <MenuToggle></MenuToggle>
             <h2>{data.subHeading}</h2>
             <div className={styles.portfolioIntro}>
             <div className={styles.details}>

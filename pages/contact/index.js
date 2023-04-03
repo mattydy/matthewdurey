@@ -3,12 +3,14 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Script from 'next/script';
 import styles from '../../styles/utils.module.scss';
+import MenuToggle from '../../components/menuToggle';
 
 export default function Home() {
 
   return (
     <div className="container">
       <h1>Contact Me</h1>
+      <MenuToggle></MenuToggle>
       <h2>Let's talk!</h2>
       <div className={styles.innerPage}>
         <div className={styles.innerPage__text}>

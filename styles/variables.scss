@@ -9,7 +9,7 @@ $widthBreakpoints: (
 ) !default;
 
 $heightBreakpoints: (
-    '800': 800px,
+    '700': 700px,
 ) !default;
 
 @mixin screen-width($breakpoint) {

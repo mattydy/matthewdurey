@@ -34,6 +34,10 @@
     transform: translate(50%, -50%);
   }
 
+  @include small-screen('700') {
+    // display: ;
+  }
+
   .buttons {
     display: grid;
     grid-template-columns: auto auto;
