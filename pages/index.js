@@ -9,21 +9,21 @@ export default function Home() {
   return (
     <div>
       <div className='background-circles'>
-        <span className='circle circle--blue circle--large'></span>
+        {/* <span className='circle circle--blue circle--large'></span> */}
         <Link href="/portfolio/executive-coaching-consultancy/">
-          <a className='circle circle--five'></a>
+          <a className='circle circle--one'></a>
         </Link>
         <Link href="/portfolio/pitch/">
-          <a className='circle circle--four'></a>
-        </Link>
-        <Link href="/portfolio/crash/">
-          <a className='circle circle--three'></a>
-        </Link>
-        <Link href="/portfolio/crash/">
           <a className='circle circle--two'></a>
         </Link>
-        <Link href="/portfolio/crash/">
-          <a className='circle circle--one'></a>
+        <Link href="/portfolio/crash-charity/">
+          <a className='circle circle--three'></a>
+        </Link>
+        <Link href="/portfolio/auditstar/">
+          <a className='circle circle--four'></a>
+        </Link>
+        <Link href="/portfolio/nodishrespect/">
+          <a className='circle circle--five'></a>
         </Link>
       </div>
       <div className="container">

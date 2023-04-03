@@ -3,6 +3,10 @@
 body{
   background: #222222;
   margin: 0;
+
+  &.sticky {
+    overflow: hidden;
+  }
 }
 
 .background-circles {
@@ -12,6 +16,7 @@ body{
     z-index: 1;
     border-radius: 50%;
     filter: blur(10px);
+    opacity: 0.9;
     
     &--large {
       height: 400px;
@@ -42,8 +47,12 @@ body{
       @include screen-width('992') {
         height: 100px;
         width: 100px; 
-        bottom: 100px;
-        left: 100px;
+        bottom: 50px;
+        left: 50px;
+      }
+      @include screen-width('1400') {
+        height: 200px;
+        width: 200px;
       }
 
       &:hover {
@@ -55,16 +64,20 @@ body{
 
     &--four {
       background: #44C7F4;
-      top: 60%;
       left: 10%;
       height: 75px;
       width: 75px;
+      bottom: 200px;
 
       @include screen-width('992') {
         height: 150px;
         width: 150px;
-        top: 40%;
-        left: 30%;
+        left: 100px;
+      }
+
+      @include screen-width('1400') {
+        height: 250px;
+        width: 250px;
       }
 
       &:hover {
@@ -76,7 +89,7 @@ body{
 
     &--three {
       background: #e30613;
-      top: 50px;
+      bottom: 100px;
       right: 50px;
       height: 100px;
       width: 100px;
@@ -84,6 +97,11 @@ body{
       @include screen-width('992') {
         height: 200px;
         width: 200px;
+      }
+
+      @include screen-width('1400') {
+        height: 300px;
+        width: 300px;
       }
 
       &:hover {
@@ -101,10 +119,15 @@ body{
       width: 125px;
 
       @include screen-width('992') {
-        bottom: 50%;
-        right: 15%;
+        top: 100px;
+        right: -50px;
         height: 250px;
         width: 250px;
+      }
+
+      @include screen-width('1400') {
+        height: 350px;
+        width: 350px;
       }
 
       &:hover {
@@ -116,16 +139,21 @@ body{
 
     &--one {
       background: #ffa800;
-      bottom: 10px;
-      right: 0%;
+      top: 175px;
+      left: 30px;
       height: 150px;
       width: 150px;
 
       @include screen-width('992') {
-        bottom: 10px;
-        right: 0%;
+        top: 50px;
+        left: -75px;
         height: 300px;
         width: 300px;
+      }
+
+      @include screen-width('1400') {
+        height: 400px;
+        widtH: 400px;
       }
 
       &:hover {
@@ -139,7 +167,11 @@ body{
   a.circle {
     transform-origin: center center;
     animation: pulseSmall 4s ease-in-out infinite;
+    display: none;
 
+    @include screen-width('768') {
+      display: block;
+    }
     &:after {
       content: '';
       display: block;
@@ -347,10 +379,20 @@ h1 {
     line-height: 60px;
   }
 
+  @include small-screen('700') {
+    line-height: 44px;
+    font-size: 32px;
+  }
+
   &.large {
     @include screen-width('768') {
       font-size: 64px;
       line-height: 89px;
+    }
+
+    @include small-screen('700') {
+      font-size: 50px;
+      line-height: 60px;
     }
   }
 }
@@ -366,10 +408,20 @@ h2 {
     font-size: 32px;
   }
 
+  @include small-screen('700') {
+    line-height: 33px;
+    font-size: 24px;
+  }
+
   &.large {
     @include screen-width('768') {
       line-height: 65px;
       font-size: 48px;
+    }
+
+    @include small-screen('700') {
+      line-height: 33px;
+      font-size: 24px;
     }
   }
 }
@@ -384,6 +436,11 @@ h3 {
     font-size: 26px;
     line-height: 36px;
   }
+
+  @include screen-width('700') {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
 
 h4 {
@@ -392,10 +449,14 @@ h4 {
   margin-bottom: 10px;
   font-weight: 400;
 
-
   @include screen-width('768') {
     font-size: 22px;
     line-height: 32px;
+  }
+
+  @include screen-width('700') {
+    font-size: 16px;
+    line-height: 26px;
   }
 }
 
@@ -408,10 +469,20 @@ p {
     font-size: 16px;
   }
 
+  @include small-screen('700') {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
   &.large {
     @include screen-width('768') {
       font-size: 20px;
       line-height: 30px;
+    }
+
+    @include small-screen('700') {
+      font-size: 12px;
+      line-height: 15px;
     }
   }
 }
@@ -504,4 +575,87 @@ p {
 
 .buttons {
   display: block;
+}
+
+.menuNav {
+  background: #222222;
+  position: absolute;
+  top:0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  // display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  display: none;
+
+  &.open {
+    display: flex;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  a {
+    font-size: 26px;
+    line-height: 36px;
+    font-family: "Poppins", sans-serif;
+    transition: all 0.25s ease-in-out;
+
+    &:hover {
+      color: #8ed8f8;
+      text-decoration: none;
+    }
+  }
+}
+
+.menuToggle {
+  position: absolute;
+  top: 40px;
+  right: 15px;
+  z-index: 1;
+
+  span {
+    background: white;
+    height: 2px;
+    width: 30px;
+    display: block;
+    margin-bottom: 7px;
+    transition: all 0.25s ease-in-out;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &.open {
+    top: 35px;
+
+    span {
+      position: absolute;
+      top: 15px;
+      right: 0;
+
+      &:nth-of-type(2) {
+        opacity: 0;
+      }
+
+      &:first-of-type {
+        transform: rotate(45deg);
+      }
+
+      &:last-of-type {
+        transform: rotate(-45deg);
+      }
+    }
+  }
 }

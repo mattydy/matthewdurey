@@ -7,6 +7,7 @@ import fsPromises from 'fs/promises';
 import path from 'path'
 import { useEffect, useState } from 'react';
 import sortBy from 'sort-by';
+import MenuToggle from '../../components/menuToggle';
 
 export async function getStaticProps() {
   const filePath = path.join(process.cwd(), 'data.json');
@@ -24,6 +25,8 @@ export default function Home(props) {
   return (
     <div className='container'>
         <h1>Portfolio</h1>
+        <MenuToggle></MenuToggle>
+
         <h2>See my collection of works</h2>
 
         <div className={styles.portfolio}>

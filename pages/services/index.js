@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Script from 'next/script';
 import styles from '../../styles/utils.module.scss';
+import MenuToggle from '../../components/menuToggle';
 
 export default function Home() {
 
@@ -17,6 +18,7 @@ export default function Home() {
       <section className="container">
 
       <h1>Services</h1>
+      <MenuToggle></MenuToggle>
             <h2>Personalised, Professional, Easy to use websites</h2>
 
           <div className={styles.innerPage}>

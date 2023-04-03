@@ -1,13 +1,34 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useEffect } from 'react';
+import MenuToggle from '../../components/menuToggle';
 import styles from '../../styles/utils.module.scss';
 
 export default function About() {
+
+  // const [navState, setNavState] = false;
+
+  function changeNavState() {
+    let menuToggle = document.getElementsByClassName('menuToggle');
+    let menuNav = document.getElementsByClassName('menuNav');
+    let body = document.getElementsByTagName('body');
+
+    menuToggle[0].classList.toggle('open');
+    menuNav[0].classList.toggle('open');
+    body[0].classList.toggle('sticky');
+  }
+  
   return (
     <div>
       <section className='container'>
           <h1>About Me</h1>
+          <MenuToggle></MenuToggle>
+          {/* <div className="menuToggle" onClick={changeNavState}>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div> */}
           <h2>Web Developer / Sports Addict / Keen Traveller</h2>
           <div className={styles.innerPage}>
             <div className={styles.innerPage__text}>
