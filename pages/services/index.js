@@ -42,9 +42,6 @@ export default function Home() {
                 <a className='white-button'>Portfolio</a>
               </Link>
               <Link href="/contact">
-                <a className='white-button'>Services</a>
-              </Link>
-              <Link href="/contact">
                 <a className='white-button'>Contact</a>
               </Link>
             </div>

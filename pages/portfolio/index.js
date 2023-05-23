@@ -35,8 +35,8 @@ export default function Home(props) {
 
             <div>
               <style jsx>{`
-              a:hover p:after {
-                background: ${posts.color} !important;
+              a:hover p {
+                color: ${posts.color} !important;
               }
               `}</style>
 
@@ -63,15 +63,17 @@ export default function Home(props) {
         </div>
 
         <p>Like what you see? Get in touch and work out how I can help you!</p>
-        <Link href="/portfolio">
-                <a className='white-button'>Portfolio</a>
-              </Link>
-              <Link href="/contact">
-                <a className='white-button'>Services</a>
-              </Link>
-              <Link href="/contact">
-                <a className='white-button'>Contact</a>
-              </Link>
+        <div className={styles.portfolioButtons}>
+          <Link href="/about">
+            <a className='white-button'>About</a>
+          </Link>
+          <Link href="/services">
+            <a className='white-button'>Services</a>
+          </Link>
+          <Link href="/contact">
+            <a className='white-button'>Contact</a>
+          </Link>
+        </div>
     </div>
   );
 }

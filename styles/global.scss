@@ -78,6 +78,7 @@ body{
       @include screen-width('1400') {
         height: 250px;
         width: 250px;
+        left: 250px;
       }
 
       &:hover {
@@ -113,7 +114,7 @@ body{
 
     &--two {
       background: #eaff00;
-      bottom: 35%;
+      bottom: 47%;
       right: 50px;
       height: 125px;
       width: 125px;
@@ -139,7 +140,7 @@ body{
 
     &--one {
       background: #ffa800;
-      top: 175px;
+      top: 85px;
       left: 30px;
       height: 150px;
       width: 150px;
@@ -347,7 +348,7 @@ h1, h3, h4 {
     position: absolute;
     left: 0;
     bottom: 7px;
-    z-indeX: -1px;
+    z-index: -1;
   }
 }
 
@@ -610,6 +611,12 @@ p {
     line-height: 36px;
     font-family: "Poppins", sans-serif;
     transition: all 0.25s ease-in-out;
+    font-weight: bold;
+
+    @include screen-width('768') {
+      font-size: 45px;
+      line-height: 55px;
+    }
 
     &:hover {
       color: #8ed8f8;

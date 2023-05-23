@@ -58,7 +58,6 @@ export default function About() {
               width={549}
               alt=""
             />
-            <span>Me on route to Miltopn Cove, New Zealand - March 2020</span>
           </div>
           </div>
       </section>

@@ -68,7 +68,7 @@ export default function Home(props) {
             >
             <SwiperSlide>
               <Image
-                  src='/images/impact-stats.png'
+                  src='/images/ecc/impact-stats.png'
                   // height={918}
                   // width={1612}
                   height={419}
@@ -79,7 +79,7 @@ export default function Home(props) {
                 </SwiperSlide>
                 <SwiperSlide>
                             <Image
-                  src='/images/impact-stats-mobile.jpeg'
+                  src='/images/ecc/impact-stats-mobile.jpeg'
                   // height={400}
                   // width={212}
                   height={419}
@@ -92,7 +92,7 @@ export default function Home(props) {
                 </div>
           <div className={styles.content}>
             <h4>Impact Sliders</h4>
-            <p>The client wanted to create a new section that not only attracts the eye but also displays further information about their objects as a company. Together with the design team at Go Up we came up with the ‘Impact Stats’ block. The user has the option to add between 2 - 5 slides, as well as the option to display text, icons, a paragraph of text and can also link to either a video or a page. <br></br><br></br>On mobile and tablet the block turns into a slider, showing 1 slide at a time (on tablet it shows 2), and displays all the information without the need to hover/click on the slide.</p>
+            <p>The client wanted to create a new section that not only attracts the eye but also displays further information about their objects as a company. Together with the design team at Go Up we came up with the ‘Impact Stats’ block. The user has the option to add between 2 & 5 slides, as well as the option to display text, icons, a paragraph of text and can also link to either a video or a page. <br></br><br></br>On mobile and tablet the block turns into a slider, showing 1 slide at a time (on tablet it shows 2), and displays all the information without the need to hover/click on the slide.</p>
           </div>
         </div>
 
@@ -112,7 +112,7 @@ export default function Home(props) {
               >
               <SwiperSlide>
                   <Image
-                  src='/images/ecc-original-menu.png'
+                  src='/images/ecc/ecc-original-menu.png'
                   height={918}
                   width={1612}
                   alt=""
@@ -121,7 +121,7 @@ export default function Home(props) {
                 </SwiperSlide>
                 <SwiperSlide>
                   <Image
-                      src='/images/ecc-mega-menu.png'
+                      src='/images/ecc/ecc-mega-menu.png'
                       height={918}
                       width={1612}
                       alt=""
@@ -152,7 +152,7 @@ export default function Home(props) {
               >
               <SwiperSlide>
                   <Image
-                  src='/images/ecc-options-404.png'
+                  src='/images/ecc/ecc-options-404.png'
                   height={918}
                   width={1612}
                   alt=""
@@ -161,7 +161,7 @@ export default function Home(props) {
                 </SwiperSlide>
                 <SwiperSlide>
                   <Image
-                      src='/images/ecc-404-page.png'
+                      src='/images/ecc/ecc-404-page.png'
                       height={918}
                       width={1612}
                       alt=""
@@ -170,7 +170,7 @@ export default function Home(props) {
                 </SwiperSlide>
                 <SwiperSlide>
                   <Image
-                      src='/images/ecc-options-say-hello.png'
+                      src='/images/ecc/ecc-options-say-hello.png'
                       height={918}
                       width={1612}
                       alt=""
@@ -179,7 +179,7 @@ export default function Home(props) {
                 </SwiperSlide>
                 <SwiperSlide>
                   <Image
-                      src='/images/ecc-say-hello.png'
+                      src='/images/ecc/ecc-say-hello.png'
                       height={918}
                       width={1612}
                       alt=""
@@ -188,7 +188,7 @@ export default function Home(props) {
                 </SwiperSlide>
                 <SwiperSlide>
                   <Image
-                      src='/images/our-coaches-options.png'
+                      src='/images/ecc/ecc-our-coaches-options.png'
                       height={918}
                       width={1612}
                       alt=""
@@ -197,7 +197,7 @@ export default function Home(props) {
                 </SwiperSlide>
                 <SwiperSlide>
                   <Image
-                      src='/images/ecc-our-coaches.png'
+                      src='/images/ecc/ecc-our-coaches.png'
                       height={918}
                       width={1612}
                       alt=""

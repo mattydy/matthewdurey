@@ -181,8 +181,8 @@
       font-size: 25px;
       line-height: 35px;
       display: inline-block;
-      // font-family: 'Architects Daughter', cursive;
-  font-family: "Poppins", sans-serif;
+      transition: all 0.25s ease-in-out;
+      font-family: "Poppins", sans-serif;
 
       &:after {
         content: '';
@@ -210,6 +210,17 @@
       margin-bottom: 15px;
       display: block;
     }
+  }
+}
+
+.portfolioButtons {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+
+  a {
+    margin-bottom: 15px;
+    margin-right: 15px;
   }
 }
 
