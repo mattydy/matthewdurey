@@ -21,17 +21,32 @@ export async function getStaticProps() {
 
 export default function Home(props) {
   const posts = props.portfolio;
+  posts.sort(sortBy('-id'));
+
+  const [selectedSortByState, setSelectedSortByState] = useState('Latest');
+
+  useEffect(() => {
+    setSelectedSortByState(selectedSortByState);
+  },[])
+
 
   return (
     <div className='container'>
-        <h1>Portfolio</h1>
+        <h1><span>P</span>ortfolio</h1>
         <MenuToggle></MenuToggle>
 
         <h2>See my collection of works</h2>
 
+        <select id="sortBySelect" name="sortBySelect" defaultValue='Latest'>
+          <option value="Latest">Latest</option>
+          <option value="Name">Name</option>
+        </select>
+
         <div className={styles.portfolio}>
 
-          {posts.map((posts) => (
+          {
+
+          posts.map((posts) => (
 
             <div>
               <style jsx>{`

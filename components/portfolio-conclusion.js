@@ -15,9 +15,8 @@ export default function Footer({data, nextProject }) {
     return (
         <div>
             <style jsx>{`
-                h1::after, h3::after {
-                content: '';
-                background: ${data.color};
+                h3 span {
+                    color: ${data.color};
                 }
                 
                 .footer-get-in-touch a, .links {
@@ -25,7 +24,7 @@ export default function Footer({data, nextProject }) {
                 }`}
             </style>
             <div className={styles.conclusion}>
-                <h3>Conculsion</h3>
+                <h3>Conclusion<span>:</span></h3>
                 <p>{data.conclusion}</p>
             </div>
 

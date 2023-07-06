@@ -8,8 +8,10 @@ export default function Home() {
 
   return (
     <div>
+      <div className="container container-large">
       <div className='background-circles'>
-        {/* <span className='circle circle--blue circle--large'></span> */}
+        <span className='circle circle--blue circle--large blue-top'></span>
+        <span className='circle circle--blue circle--large blue-bottom'></span>
         <Link href="/portfolio/executive-coaching-consultancy/">
           <a className='circle circle--one'></a>
         </Link>
@@ -26,7 +28,6 @@ export default function Home() {
           <a className='circle circle--five'></a>
         </Link>
       </div>
-      <div className="container">
       <section className={styles.homePage}>
         {/* <div className={styles.homeImage}>
         <Image
