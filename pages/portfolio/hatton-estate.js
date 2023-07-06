@@ -22,9 +22,9 @@ export async function getStaticProps() {
   }
 }
 export default function Home(props) {
-  const posts = props.portfolio[9];
+  const posts = props.portfolio[0];
   const color = posts.color;
-  const nextProject = props.portfolio[10];
+  const nextProject = props.portfolio[1];
   
   return (
     <div>

@@ -22,18 +22,16 @@ export async function getStaticProps() {
   }
 }
 export default function Home(props) {
-  const posts = props.portfolio[0];
+  console.log(props);
+  const posts = props.portfolio[9];
   const color = posts.color;
-  const nextProject = props.portfolio[1];
-
-  console.log(props.general[0].highlighted)
+  const nextProject = props.portfolio[10];
 
   return (
     <div>
       <style jsx>{`
-      h1::after, h3::after, h4:after {
-        content: '';
-        background: ${color};
+      h1 span, h3 span, h4 span {
+        color: ${color};
       }
       
       a {
@@ -49,7 +47,7 @@ export default function Home(props) {
 
       <div className={styles.portfolioContent}>
         <div className={styles.highlights}>
-          <h3>Highlighted Features</h3>
+          <h3>Highlighted Features<span>:</span></h3>
           <p>{props.general[0].highlighted}</p>
         </div>
         <div className={`${styles.feature}`}>
@@ -91,7 +89,7 @@ export default function Home(props) {
                 </Swiper>
                 </div>
           <div className={styles.content}>
-            <h4>Impact Sliders</h4>
+            <h4>Impact Sliders<span>:</span></h4>
             <p>The client wanted to create a new section that not only attracts the eye but also displays further information about their objects as a company. Together with the design team at Go Up we came up with the ‘Impact Stats’ block. The user has the option to add between 2 & 5 slides, as well as the option to display text, icons, a paragraph of text and can also link to either a video or a page. <br></br><br></br>On mobile and tablet the block turns into a slider, showing 1 slide at a time (on tablet it shows 2), and displays all the information without the need to hover/click on the slide.</p>
           </div>
         </div>
@@ -131,7 +129,7 @@ export default function Home(props) {
             </Swiper>
           </div>
           <div className={styles.content}>
-            <h4>Mega Menu</h4>
+            <h4>Mega Menu<span>:</span></h4>
             <p>When the build was nearly complete the client wanted to change the structure of the ‘Our Solutions’ area. Previously on the Menu they had only displayed the page names and wanted to include more information about the solutions offered. Working with the Design team we implemented a different menu, one which gave the user the ability to read a summary on the Solution before visiting the page.</p>
           </div>
         </div>
@@ -207,7 +205,7 @@ export default function Home(props) {
             </Swiper>
           </div>
           <div className={styles.content}>
-            <h4>Options Page</h4>
+            <h4>Options Page<span>:</span></h4>
             <p>Due to the size of this site there were certain blocks that would always display the same information, ‘Our Coaches’, 'Say Hello' and the 404 page to name a few. Therefore it made sense to create the fields for these blocks in one place and call them when the user selects the block. I created an ‘Options’ section in the CMS, where I placed all the universal settings.</p>
           </div>
         </div>
@@ -247,7 +245,7 @@ export default function Home(props) {
             </Swiper>
           </div>
           <div className={styles.content}>
-            <h4>Multiple Blog Areas</h4>
+            <h4>Multiple Blog Areas<span>:</span></h4>
             <p>One of the key features of the ECC site was the multiple blogs areas. They have an area called Resources and an area called ‘Work, Family & You’. Both of these areas have their own Categories, Tags and Articles.</p>
           </div>
         </div>

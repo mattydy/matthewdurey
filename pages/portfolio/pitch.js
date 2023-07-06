@@ -22,16 +22,15 @@ export async function getStaticProps() {
   }
 }
 export default function Home(props) {
-  const posts = props.portfolio[1];
+  const posts = props.portfolio[8];
   const color = posts.color;
-  const nextProject = props.portfolio[2];
+  const nextProject = props.portfolio[9];
   
   return (
     <div>
       <style jsx>{`
-      h1::after, h3::after, h4::after {
-        content: '';
-        background: ${color};
+      h1 span, h3 span, h4 span {
+        color: ${color};
       }
       
       a {
@@ -44,7 +43,7 @@ export default function Home(props) {
       <div className={styles.portfolioContent}>
       
           <div className={styles.highlights}>
-          <h3>Highlighted Features</h3>
+          <h3>Highlighted Features<span>:</span></h3>
           <p>Below I have listed some key features on the website. They include parts of the website which the client whiched to change from the original design, elements that I have coded to save time and repeation and areas of the site that were key for functionality/user experience.</p>
           </div>
       
@@ -102,7 +101,7 @@ export default function Home(props) {
           </div>
           
           <div className={styles.content}>
-          <h4>Instant Impact</h4>
+          <h4>Instant Impact<span>:</span></h4>
           <p>One of the key features of the Pitch site is the Imagry and colours. When you first access the website its clear that the work and clientele Pitch work with are impressive.<br></br><br></br>This theme continues thorughout the site, the majority of the links on teh site all include a powerful image.<br></br><br></br>Within each Service the user is again presented with a large image and text related to one of the case studies related to that service.</p>
           </div>
 
@@ -151,7 +150,7 @@ export default function Home(props) {
           </div>
           
           <div className={styles.content}>
-          <h4>Impressive Clients</h4>
+          <h4>Impressive Clients<span>:</span></h4>
           <p>There are a few different ways we show the user the clients that Pitch work with. On various pages we use a use a grid layout which showcases photos and the client names. This changes on the inner services pages to only the clients related to those services.<br></br><br></br>We also have a client carousel on the About Us page which showcases the clients at once.</p>
           </div>
           
@@ -175,7 +174,7 @@ export default function Home(props) {
           </div>
           
           <div className={styles.content}>
-          <h4>Full of history</h4>
+          <h4>Full of history<span>:</span></h4>
           <p>To showcase Pitches history we built a slider, complete with the year, text and imagry. The user can easily navigate teh timeline, hovering over images to get further information.</p>
           </div>
           

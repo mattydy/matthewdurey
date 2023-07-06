@@ -9,12 +9,12 @@ export default function Home() {
 
   return (
     <div className="container">
-      <h1>Contact Me</h1>
+      <h1><span>C</span>ontact <span>M</span>e</h1>
       <MenuToggle></MenuToggle>
-      <h2>Let's talk!</h2>
+      <h2>Interested in working together?</h2>
       <div className={styles.innerPage}>
         <div className={styles.innerPage__text}>
-          <p>Have something you want to discuss, get in touch with me via <Link href="https://linkedin.com">Linkedin</Link> or <Link href="mailto:mattydy@hotmail.com">email</Link>.</p>
+          <p>If you are interested in working together or wish to find out more about what I can help with, get in touch with me via <Link href="https://linkedin.com">Linkedin</Link> or <Link href="mailto:mattydy@hotmail.com">email</Link>.</p>
           <p>I normally respond within 48 hours.</p>
           <div className={styles.innerPage__buttons}>
             <Link href="/about">

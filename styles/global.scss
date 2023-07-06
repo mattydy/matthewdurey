@@ -19,22 +19,29 @@ body{
     opacity: 0.9;
     
     &--large {
-      height: 400px;
-      width: 400px;
+      height: 250px;
+      width: 250px;
 
       @include screen-width('768') {
-        height: 500px;
-        width: 500px;
+        display: none;
       }
     }
 
     &--blue {
       background: #8ed8f8;
-      top: -200px;
-      left: 0;
-      animation: pulse 10s ease-in-out infinite;
-      filter: blur(100px);
+      animation: pulse 4s ease-in-out infinite;
+      filter: blur(50px);
       z-index: -1;
+
+      &.blue-top {
+        top: -150px;
+        left: 0;
+      }
+
+      &.blue-bottom {
+        bottom: -150px;
+        right: 0;
+      }
     }
 
     &--five {
@@ -271,28 +278,15 @@ body{
 
 @keyframes pulse {
   0% {
-    height: 400px;
-    width: 400px;
-
-    @include screen-width('768') {
-      height: 500px;
-      width: 500px;
-    }
+    transform: scale(1);
   }
 
   50% {
-    height: 300px;
-    width: 300px;
+    transform: scale(1.2);
   }
 
   100% {
-    height: 400px;
-    width: 400px;
-
-    @include screen-width('768') {
-      height: 500px;
-      width: 500px;
-    }
+    transform: scale(1);
   }
 }
 
@@ -327,6 +321,14 @@ body{
   padding: 30px 15px;
 }
 
+.container-large {
+  overflow: hidden;
+
+  @include screen-width('768') {
+    max-width: 100vw;
+  }
+}
+
 h1, h2, h3, h4, p {
   margin: 0 auto;
   color: #f2f2f2;
@@ -335,21 +337,15 @@ h1, h2, h3, h4, p {
 h1, h2, h3, h4 {
   // font-family: 'Architects Daughter', cursive;
   font-family: "Poppins", sans-serif;
+
+  span {
+    color:#8ed8f8;
+  }
 }
 
 h1, h3, h4 {
   position: relative;
   display: inline-block;
-
-  &:after {
-    display: block;
-    widtH: 100%;
-    height: 1px;
-    position: absolute;
-    left: 0;
-    bottom: 7px;
-    z-index: -1;
-  }
 }
 
 p, a {
@@ -399,7 +395,7 @@ h1 {
 }
 
 h2 {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 24px;
   line-height: 33px;
   margin-bottom: 39px;
