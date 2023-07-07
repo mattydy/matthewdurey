@@ -11,7 +11,7 @@ export default function Home() {
     <div className="container">
       <h1><span>C</span>ontact <span>M</span>e</h1>
       <MenuToggle></MenuToggle>
-      <h2>Interested in working together?</h2>
+      <h2>Interested in working together<span>?</span></h2>
       <div className={styles.innerPage}>
         <div className={styles.innerPage__text}>
           <p>If you are interested in working together or wish to find out more about what I can help with, get in touch with me via <Link href="https://linkedin.com">Linkedin</Link> or <Link href="mailto:mattydy@hotmail.com">email</Link>.</p>

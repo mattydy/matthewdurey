@@ -41,8 +41,8 @@ export default function Home() {
         </div> */}
 
           <div className={styles.homeContent}>
-            <h1 className='large'>Matthew Durey</h1>
-            <h2 className='large'>Web Developer</h2>
+            <h1 className='large'><span>M</span>atthew <span>D</span>urey</h1>
+            <h2 className='large'><span>W</span>eb <span>D</span>eveloper</h2>
             <p className='large'>I'm a London based Web Developer specialising in custom built WordPress websites. I also have experience in React, SEO, Shopify and WooCommerce.</p>
             <div className={styles.buttons}>
               <Link href="/about">

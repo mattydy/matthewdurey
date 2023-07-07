@@ -21,25 +21,22 @@ export async function getStaticProps() {
 
 export default function Home(props) {
   const posts = props.portfolio;
-  posts.sort(sortBy('-id'));
 
-  const [selectedSortByState, setSelectedSortByState] = useState('Latest');
-
-  useEffect(() => {
-    setSelectedSortByState(selectedSortByState);
-  },[])
-
+  const [selectedSortByState, setSelectedSortByState] = useState('-id');
+  posts.sort(sortBy(selectedSortByState));
 
   return (
     <div className='container'>
         <h1><span>P</span>ortfolio</h1>
         <MenuToggle></MenuToggle>
 
-        <h2>See my collection of works</h2>
+        <h2>See my collection of works<span>.</span></h2>
 
-        <select id="sortBySelect" name="sortBySelect" defaultValue='Latest'>
-          <option value="Latest">Latest</option>
-          <option value="Name">Name</option>
+        <select id="sortBySelect" name="sortBySelect" defaultValue='-id' onChange={(e) => {setSelectedSortByState(e.target.value)}}>
+          <option value="-id">Latest First</option>
+          <option value="id">Oldest First</option>
+          <option value="title">Title Asc</option>
+          <option value="-title">Title Des</option>
         </select>
 
         <div className={styles.portfolio}>
