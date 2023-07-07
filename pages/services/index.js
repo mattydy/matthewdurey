@@ -19,7 +19,7 @@ export default function Home() {
 
       <h1><span>S</span>ervices</h1>
       <MenuToggle></MenuToggle>
-        <h2>Professional, personalised and easy to use websites</h2>
+        <h2>Professional<span>,</span> personalised <span>&</span> easy to use websites<span>.</span></h2>
 
           <div className={styles.innerPage}>
             <div className={styles.innerPage__text}>

@@ -12,7 +12,7 @@ export default function About() {
       <section className='container'>
           <h1><span>A</span>bout <span>M</span>e</h1>
           <MenuToggle></MenuToggle>
-          <h2>Web Developer / Sports Addict / Keen Traveller</h2>
+          <h2>Web Developer<span>,</span> Sports Addict <span>&</span> Keen Traveller<span>.</span></h2>
           <div className={styles.innerPage}>
             <div className={styles.innerPage__text}>
             <p>I am a London based Website Developer, working with clients throughout the UK and Ireland. I develop bespoke, multi-browser, fully customisable, multi-device websites using WordPress, Shopify and WooCommerce. My clients range from large corporate clients to small independent traders.</p>
