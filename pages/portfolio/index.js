@@ -23,7 +23,10 @@ export default function Home(props) {
   const posts = props.portfolio;
 
   const [selectedSortByState, setSelectedSortByState] = useState('-id');
+  const [filterList, setFilterList] = useState('all');
+
   posts.sort(sortBy(selectedSortByState));
+
 
   return (
     <div className='container'>
@@ -32,12 +35,28 @@ export default function Home(props) {
 
         <h2>See my collection of works<span>.</span></h2>
 
-        <select id="sortBySelect" name="sortBySelect" defaultValue='-id' onChange={(e) => {setSelectedSortByState(e.target.value)}}>
-          <option value="-id">Latest First</option>
-          <option value="id">Oldest First</option>
-          <option value="title">Title Asc</option>
-          <option value="-title">Title Des</option>
-        </select>
+        <div className={styles.portfolioFilters}>
+          <div className={styles.filter}>
+            <p>Sort By<span>:</span></p>
+            <select id="sortBySelect" name="sortBySelect" defaultValue='-id' onChange={(e) => {setSelectedSortByState(e.target.value)}}>
+              <option value="-id">Latest First</option>
+              <option value="id">Oldest First</option>
+              <option value="title">Title Asc</option>
+              <option value="-title">Title Des</option>
+            </select>
+          </div>
+
+          <div className={styles.filter}>
+            <p>Filter By<span>:</span></p>
+            <select id="filterBySelect" name="filterBySelect" defaultValue='all' onChange={(e) => {setFilterList(e.target.value)}}>
+              <option value="all">Show All</option>
+              <option value="WordPress">WordPress</option>
+              <option value="SEO">SEO</option>
+              <option value="WooCommerce">WooCommerce</option>
+              <option value="Web Design">Web Design</option>
+            </select>
+          </div>
+        </div>
 
         <div className={styles.portfolio}>
 
@@ -45,7 +64,7 @@ export default function Home(props) {
 
           posts.map((posts) => (
 
-            <div>
+            <div style={{display: posts.services.includes(filterList) || filterList == 'all' ? 'block' : 'none'}}> 
               <style jsx>{`
               a:hover p {
                 color: ${posts.color} !important;
