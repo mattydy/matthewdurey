@@ -2,7 +2,8 @@ import styles from '../styles/utils.module.scss';
 import Image from 'next/image';
 import Link from 'next/link';
 import MenuToggle from './menuToggle';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
+import { isAbsoluteUrl } from 'next/dist/shared/lib/utils';
 
 export default function Footer({data }) {
 
@@ -19,6 +20,17 @@ export default function Footer({data }) {
         })
     }
     styleTitle();
+
+    let [isURL, setIsURL] = useState(functionURLSet());
+
+    function functionURLSet() {
+        if (data.url == 'This website is no longer online') {
+            return false;
+        } else {
+            return true;
+        }
+    }
+
     return (
         <div>
             <style jsx>{`
@@ -49,7 +61,7 @@ export default function Footer({data }) {
             <p>{data.intro}</p>
             <div className={styles.stats}>
             <p><strong>Services:</strong> {data.services}</p>
-            <p><strong>URL:</strong> <Link href={data.url}><a target="_blank">{data.url}</a></Link></p>
+            <p><strong>URL:</strong> {isURL ? <Link href={data.url}><a target="_blank">{data.url}</a></Link> : data.url}</p>
             </div>
             </div>
         </div>

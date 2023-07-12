@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
     "aos": "^2.3.4",
     "axios": "^1.2.6",
     "next": "latest",

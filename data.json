@@ -7,6 +7,19 @@
     "portfolio": [
         {
             "id": 0,
+            "slug": "hatton-world",
+            "title": "Hatton World",
+            "image": "/images/hatton-world.png",
+            "services": "WordPress",
+            "color": "#b81719",
+            "subHeading": "Hatton World is an estate with a range of activites and attractions",
+            "url": "https://hattonworld.com/",
+            "intro": "I built the Hatton World website while working for Kuki Digital. Hatton World were a long time client of Kuki and wanted to bring all their websites together with the same design.",
+            "conclusion": "This is the conclusion",
+            "getInTouch": "Want to update your website's CMS?"
+        },
+        {
+            "id": 1,
             "slug": "hatton-estate",
             "title": "Hatton Estate",
             "image": "/images/hatton-estate.png",
@@ -19,7 +32,7 @@
             "getInTouch": "Like this website?"
         },
         {
-            "id": 1,
+            "id": 2,
             "slug": "hatton-shopping-village",
             "title": "Hatton Shopping Village",
             "image": "/images/hatton-shopping-village.png",
@@ -32,7 +45,7 @@
             "getInTouch": "Like this website?"
         },
         {
-            "id": 2,
+            "id": 3,
             "slug": "hatton-adventure-world",
             "title": "Hatton Adventure World",
             "image": "/images/hatton-adventure-world.png",
@@ -45,7 +58,7 @@
             "getInTouch": "Like this website?"
         },
         {
-            "id": 3,
+            "id": 4,
             "slug": "aq-revolution",
             "title": "AQ Revolution",
             "image": "/images/aq-revolution.png",
@@ -58,7 +71,7 @@
             "getInTouch": "Want to get your companies message out there?"
         },
         {
-            "id": 4,
+            "id": 5,
             "slug": "natural-high-safaris",
             "title": "Natural High Safaris",
             "image": "/images/natural-high-safaris.png",
@@ -71,7 +84,7 @@
             "getInTouch": "Do you need a change of website to gain more enquiries?"
         },
         {
-            "id": 5,
+            "id": 6,
             "slug": "nodishrespect",
             "title": "NoDishrespect",
             "image": "/images/nodishrespect/nodishrespect.png",
@@ -84,7 +97,7 @@
             "getInTouch": "Do you have a blogging website that needs a revamp?"
         },
         {
-            "id": 6,
+            "id": 7,
             "slug": "auditstar",
             "title": "Auditstar",
             "image": "/images/auditstar.png",
@@ -97,7 +110,7 @@
             "getInTouch": "Do you operate in more than one country?"
         },
         {
-            "id": 7,
+            "id": 8,
             "slug": "crash-charity",
             "title": "Crash Charity",
             "image": "/images/crash.png",
@@ -110,7 +123,7 @@
             "getInTouch": "Do you need to clarify who you are and what you provide for customers?"
         },
         {
-            "id": 8,
+            "id": 9,
             "slug": "pitch",
             "title": "Pitch Redesign 2021",
             "image": "/images/pitch.png",
@@ -123,7 +136,7 @@
             "getInTouch": "Would you like a website like Pitch?"
         },
         {
-            "id": 9,
+            "id": 10,
             "slug": "executive-coaching-consultancy",
             "title": "Executive Coaching Consultancy",
             "image": "/images/executive-coaching-consultancy.png",
@@ -134,6 +147,19 @@
             "intro": "I built the Executive Coaching Consultancy website while working for Go Up. The Client's website was using the classic version of WordPress which meant they could not easily change the content & layout of their website without the help of a developer. They wanted Go Up to rebuild the website within Gutenburg so they could customise it as needed.",
             "conclusion": "Converting the Executive Coaching Consultancy website from Classic Editor to the Gutenburg Editor allowed the client to make changes to their website without needing to contact a developer, saving the company time and money.",
             "getInTouch": "Have an issue like Executive Coaching Consultancy faced?"
+        },
+        {
+            "id": 11,
+            "slug": "go-up",
+            "title": "Go Up Ltd",
+            "image": "/images/goup/goup-homepage.png",
+            "services": "WordPress, SEO",
+            "color": "#2fc978",
+            "subHeading": "London’s leading SEO and search marketing agency for unrivalled online experiences",
+            "url": "https://www.goup.co.uk",
+            "intro": "While working for Go Up, we decided to update the website as the old site was outdated. With a fresh design and moving from Classic editor to Gutenburg, the website has a new look and feel that is 2023",
+            "conclusion": "Converting the Go Up website from Classic Editor to the Gutenburg Editor and rebranding has made Go Up a rival in the SEO space, giving potential clients the reassurance that they are getting the best treatment possible.",
+            "getInTouch": "Want to update your website's CMS?"
         }
     ]
 }

@@ -4,11 +4,14 @@
   height: calc(100vh - 60px);
 }
 
-.homeImage {
+.homeImage, .contactImage {
   position: absolute;
   bottom: 0;
   left: 25px;
   margin-top: auto !important;
+}
+
+.homeImage {
   display: none !important;
 
   @include screen-width('768') {
@@ -82,6 +85,18 @@
     }
   }
 
+  &__fullText {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    div {
+      @include screen-width('768') {
+        width: calc(50% - 15px);
+      }
+    }
+  }
+
   &__image__multi {
     text-align: center;
   }
@@ -107,33 +122,107 @@
   p {
     margin-bottom: 25px;
   }
-}
 
+  form {
+    label {
+      display: flex;
+      flex-wrap: wrap;
+      color: white;
+      font-family: 'Inter', sans-serif;
+      font-size: 15px;
+      line-height: 25px;
+      margin-bottom: 5px;
+
+      span {
+        color: #8ed8f8;
+      }
+
+    }
+
+    input, textarea {
+      width: calc(100% - 13px);
+      padding: 0 5px;
+      font-family: 'Inter', sans-serif;
+      font-size: 15px;
+      line-height: 25px;
+      color: #222222;
+    }
+
+    input {
+      margin-bottom: 15px;
+      height: 35px;
+    }
+
+    textarea {
+      padding: 10px 5px;
+    }
+
+    .messageCount {
+      display: flex;
+      margin-bottom: 15px;
+      font-family: 'Inter', sans-serif;
+      font-size: 10px;
+      line-height: 25px;
+
+      span {
+        font-family: 'Inter', sans-serif;
+        font-size: 10px;
+        line-height: 25px;
+      }
+    }
+
+    div.smaller {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    div.group {
+      width: 100%;
+      @include screen-width('992') {
+        width: calc(50% - 15px);
+      }
+    }
+  }
+}
+.portfolioFilters {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-bottom: 25px;
+
+  div:first-of-type {
+    margin-right: 30px;
+  }
+
+  p {
+    color: #f2f2f2;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 10px;
+
+    span {
+      color: #8ed8f8;
+    }
+  }
+
+  select {
+    background: none;
+    outline: none;
+    border: 1px solid white;
+    color: #f2f2f2;
+    padding: 5px;
+  }
+}
 .portfolio {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 
-  .filters {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 25px;
-
-    span {
-      color: #f2f2f2;
-      font-family: 'Inter', sans-serif;
-      font-size: 15px;
-      line-height: 25px;
-    }
-
-    select {
-      background: none;
-      outline: none;
-      border: 0;
-      color: #f2f2f2;
-    }
+  @include screen-width('992') {
+    justify-content: flex-start;
   }
 
   > div {
@@ -146,6 +235,13 @@
 
     @include screen-width('992') {
       width: calc(33.33% - 15px);
+      margin-right: 22px;
+    }
+
+    &:nth-of-type(3n) {
+      @include screen-width('992') {
+        margin-right: 0;
+      }
     }
 
   }
@@ -323,18 +419,20 @@
 
 
 .links {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
   justify-content: center;
+  text-align: center;
 
-  @media only screen and (min-width: 423px) {
+  @include screen-width('768') {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
   }
 
   a.back {
     order: 2;
 
-    @media only screen and (min-width: 423px) {
+    @include screen-width('768') {
       order: 1;
     }
     &:before {
@@ -354,10 +452,11 @@
     margin-bottom: 30px;
     order: 1;
 
-    @media only screen and (min-width: 423px) {
+    @include screen-width('768') {
       order: 2;
       margin-bottom: 0;
     }
+
     &:after {
       background-image: url('/icons/arrow.svg');
       transform: rotate(180deg);

@@ -2,9 +2,24 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import Script from 'next/script';
+import path from 'path';
+import fsPromises from 'fs/promises';
 import styles from '../styles/utils.module.scss';
+import sortBy from 'sort-by';
 
-export default function Home() {
+export async function getStaticProps() {
+  const filePath = path.join(process.cwd(), 'data.json');
+  const jsonData = await fsPromises.readFile(filePath);
+  const objectData = JSON.parse(jsonData);
+
+  return {
+    props: objectData
+  }
+}
+
+export default function Home(props) {
+  const posts = props.portfolio;
+  posts.sort(sortBy('-id'))
 
   return (
     <div>
@@ -12,34 +27,67 @@ export default function Home() {
       <div className='background-circles'>
         <span className='circle circle--blue circle--large blue-top'></span>
         <span className='circle circle--blue circle--large blue-bottom'></span>
-        <Link href="/portfolio/executive-coaching-consultancy/">
-          <a className='circle circle--one'></a>
-        </Link>
-        <Link href="/portfolio/pitch/">
-          <a className='circle circle--two'></a>
-        </Link>
-        <Link href="/portfolio/crash-charity/">
-          <a className='circle circle--three'></a>
-        </Link>
-        <Link href="/portfolio/auditstar/">
-          <a className='circle circle--four'></a>
-        </Link>
-        <Link href="/portfolio/nodishrespect/">
-          <a className='circle circle--five'></a>
-        </Link>
+
+        { posts.map((posts, i, row) => {
+          let $class;
+          let $effect;
+          if (i < 5) {
+            if (i == 0) {
+              $class = 'circle--one';
+              $effect = 'sonarEffectOne'; 
+            } else if(i == 1) {
+              $class = 'circle--two';
+              $effect = 'sonarEffectTwo';
+            } else if(i == 2) {
+              $class = 'circle--three';
+              $effect = 'sonarEffectThree'; 
+            } else if(i == 3) {
+              $class = 'circle--four';
+              $effect = 'sonarEffectFour'; 
+            } else if(i == 4) {
+              $class = 'circle--five';
+              $effect = 'sonarEffectFive'; 
+            }
+
+            return (
+              <span>
+
+              <style jsx>{`
+              .circle {
+                background: ${posts.color} !important;
+              }
+
+              .circle::after {
+                box-shadow: 0 0 0 2px ${posts.color};
+              }
+
+              @keyframes ${$effect} {
+                0% {
+                    opacity: 1;
+                }
+                40% {
+                    opacity: 1;
+                    box-shadow: 0 0 0 2px ${posts.color}, 0 0 10px 10px ${posts.color}, 0 0 0 10px ${posts.color};
+                }
+                100% {
+                    box-shadow: 0 0 0 2px ${posts.color}, 0 0 10px 10px ${posts.color}, 0 0 0 10px ${posts.color};
+                    transform: scale(1.5);
+                    opacity: 1;
+                }
+              }
+              `}</style>
+
+              <Link href={`/portfolio/${posts.slug}/`}>
+                <a className={`circle ${$class}`}></a>
+              </Link>
+            </span>
+            )
+          }
+          i++;
+        })}
+
       </div>
       <section className={styles.homePage}>
-        {/* <div className={styles.homeImage}>
-        <Image
-          priority
-          src="/images/matt.webp"
-          className={styles.homeImage}
-          height={472}
-          width={285}
-          alt=""
-          />
-        </div> */}
-
           <div className={styles.homeContent}>
             <h1 className='large'><span>M</span>atthew <span>D</span>urey</h1>
             <h2 className='large'><span>W</span>eb <span>D</span>eveloper</h2>
