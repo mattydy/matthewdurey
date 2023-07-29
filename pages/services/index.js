@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Script from 'next/script';
 import styles from '../../styles/utils.module.scss';
 import MenuToggle from '../../components/menuToggle';
+import Footer from '../../components/footer';
 
 export default function Home() {
 
@@ -54,6 +55,10 @@ export default function Home() {
             </div>
           </div>
       </section>
+
+      <div className="footer__right">
+          <Footer></Footer>
+        </div>
     </div>
   );
 }

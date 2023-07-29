@@ -85,6 +85,18 @@
     }
   }
 
+  &__image {
+    margin-bottom: 25px;
+
+    @include screen-width('992') {
+      margin-bottom: 0;
+    }
+
+    // @include screen-width('992') {
+    //   margin-bottom: 15px;
+    // }
+  }
+
   &__fullText {
     display: flex;
     flex-wrap: wrap;
@@ -104,10 +116,19 @@
   &__buttons {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 15px;
+
+    @include screen-width('768') {
+      margin-bottom: 0;
+    }
 
     a {
       margin-bottom: 15px;
       margin-right: 15px;
+
+      @include screen-width('768') {
+        margin-bottom: 0;
+      }
     }
   }
 
@@ -313,10 +334,19 @@
   display: flex;
   flex-wrap: wrap;
   margin-top: 15px;
+  margin-bottom: 15px;
+
+  @include screen-width('768') {
+    margin-bottom: 0;
+  }
 
   a {
     margin-bottom: 15px;
     margin-right: 15px;
+
+    @include screen-width('768') {
+      margin-bottom: 0;
+    }
   }
 }
 
