@@ -150,6 +150,19 @@
         },
         {
             "id": 11,
+            "slug": "matthewdurey",
+            "title": "Matthew Durey Rebrand",
+            "image": "/images/matthewdurey/homepage.png",
+            "services": "React, SEO, Web Design",
+            "color": "#8ed8f8",
+            "subHeading": "Rebranding my own website",
+            "url": "https://www.matthewdurey.com",
+            "intro": "Wanting to learn React, this was the perfect oppurtunity for me to rebrand my website. I decided to use features from other sites on my portfolio to give it a clean modern design.",
+            "conclusion": ".",
+            "getInTouch": "Want to rebrand?"
+        },
+        {
+            "id": 12,
             "slug": "go-up",
             "title": "Go Up Ltd",
             "image": "/images/goup/goup-homepage.png",

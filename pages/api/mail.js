@@ -14,7 +14,7 @@ export default (req, res) => {
     Message: ${body.enquiry}`;
 
     const data = {
-        to: 'mattydy@hotmail.com',
+        to: 'me@matthewdurey.com',
         from: 'enquiries@matthewdurey.com',
         subject: 'New message from Website',
         test: message,

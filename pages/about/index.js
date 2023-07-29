@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { useEffect } from 'react';
 import MenuToggle from '../../components/menuToggle';
 import styles from '../../styles/utils.module.scss';
+import Footer from '../../components/footer';
 
 export default function About() {
   
@@ -43,6 +44,7 @@ export default function About() {
           </div>
           </div>
       </section>
+      <Footer className="footer--left"></Footer>
     </div>
   );
 }

@@ -6,6 +6,7 @@ import path from 'path';
 import fsPromises from 'fs/promises';
 import styles from '../styles/utils.module.scss';
 import sortBy from 'sort-by';
+import Footer from '../components/footer';
 
 export async function getStaticProps() {
   const filePath = path.join(process.cwd(), 'data.json');
@@ -108,6 +109,9 @@ export default function Home(props) {
             </div>
           </div>
       </section>
+      <div className="footer__center">
+      <Footer></Footer>
+      </div>
       </div>
     </div>
   );

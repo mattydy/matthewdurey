@@ -6,6 +6,7 @@ import styles from '../../styles/utils.module.scss';
 import MenuToggle from '../../components/menuToggle';
 import { useState } from 'react';
 import { router } from 'next/router';
+import Footer from '../../components/footer';
 
 
 export default function Home() {
@@ -61,7 +62,7 @@ export default function Home() {
       <h2>Interested in working together<span>?</span></h2>
       <div className={styles.innerPage}>
         <div className={styles.innerPage__text}>
-          <p>If you are interested in working together or wish to find out more about what I can help with, get in touch with me via <Link href="https://linkedin.com">Linkedin</Link> or <Link href="mailto:mattydy@hotmail.com">email</Link>.</p>
+          <p>If you are interested in working together or wish to find out more about what I can help with, get in touch with me via <Link href="https://linkedin.com">Linkedin</Link>, <Link href="mailto:mattydy@hotmail.com">email</Link> or by filling out the form opposite.</p>
           <p>I normally respond within 48 hours.</p>
           <div className={styles.innerPage__buttons}>
             <Link href="/about">
@@ -107,6 +108,10 @@ export default function Home() {
         </form>
         </div>
       </div>
+
+      <div className="footer__left">
+          <Footer></Footer>
+        </div>
     </div>
   );
 }

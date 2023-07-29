@@ -8,6 +8,7 @@ import path from 'path'
 import { useEffect, useState } from 'react';
 import sortBy from 'sort-by';
 import MenuToggle from '../../components/menuToggle';
+import Footer from '../../components/footer';
 
 export async function getStaticProps() {
   const filePath = path.join(process.cwd(), 'data.json');
@@ -104,6 +105,10 @@ export default function Home(props) {
           <Link href="/contact">
             <a className='white-button'>Contact</a>
           </Link>
+        </div>
+
+        <div className="footer__right">
+          <Footer></Footer>
         </div>
     </div>
   );
