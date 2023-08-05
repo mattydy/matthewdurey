@@ -51,7 +51,7 @@ export default function Home(props) {
             }
 
             return (
-              <span>
+              <span key={posts.id}>
 
               <style jsx>{`
               .circle {

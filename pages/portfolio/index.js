@@ -53,7 +53,7 @@ export default function Home(props) {
               <option value="all">Show All</option>
               <option value="WordPress">WordPress</option>
               <option value="SEO">SEO</option>
-              <option value="WooCommerce">WooCommerce</option>
+              <option value="React">React</option>
               <option value="Web Design">Web Design</option>
             </select>
           </div>
@@ -65,7 +65,7 @@ export default function Home(props) {
 
           posts.map((posts) => (
 
-            <div style={{display: posts.services.includes(filterList) || filterList == 'all' ? 'block' : 'none'}}> 
+            <div key={posts.id} style={{display: posts.services.includes(filterList) || filterList == 'all' ? 'block' : 'none'}}> 
               <style jsx>{`
               a:hover p {
                 color: ${posts.color} !important;
