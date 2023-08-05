@@ -22,7 +22,6 @@ export async function getStaticProps() {
   }
 }
 export default function Home(props) {
-  console.log(props);
   const posts = props.portfolio[10];
   const color = posts.color;
   const nextProject = props.portfolio[9];
@@ -231,7 +230,7 @@ export default function Home(props) {
                   width={1612}
                   alt=""
                 />
-                <span className={styles.caption}>The 'Resources' area on teh site showing the relevant categories and blog articles.</span>
+                <span className={styles.caption}>The 'Resources' area on the site showing the relevant categories and blog articles.</span>
                 </SwiperSlide>
                 <SwiperSlide>
                   <Image

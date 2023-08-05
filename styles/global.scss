@@ -68,9 +68,7 @@ body{
 
 .footer__center {
   .footer {
-    @include screen-width('768') {
       text-align: center;
-    }
   }
 }
 .background-circles {

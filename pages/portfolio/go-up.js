@@ -175,7 +175,7 @@ export default function Home(props) {
           </div>
           <div className={styles.content}>
             <h4>Team Profiles<span>:</span></h4>
-            <p>Throughout the website one recurring theme is the staff profiles. On the old website all staff images and references were individual, meaingin that if a staff member left their profile would need to be removed form each page. This was hard to manage and usually meant pages were skipped.<br></br><br></br>To overcome this on the new website I decided to create custom fields within the Users section. This meant I could add a field where the users 'Status' could be enabled or disabled. I also added a 'Teams' selector which when used with the 'Team' slider block pulled through the correct people.</p>
+            <p>Throughout the website one recurring theme is the staff profiles. On the old website all staff images and references were individual, meaingin that if a staff member left their profile would need to be removed from each page. This was hard to manage and usually meant pages were skipped.<br></br><br></br>To overcome this on the new website I decided to create custom fields within the Users section. This meant I could add a field where the users 'Status' could be enabled or disabled. I also added a 'Teams' selector which when used with the 'Team' slider block pulled through the correct people.</p>
           </div>
         </div>
 

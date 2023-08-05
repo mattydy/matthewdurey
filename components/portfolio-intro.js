@@ -5,7 +5,7 @@ import MenuToggle from './menuToggle';
 import { useEffect, useState } from 'react';
 import { isAbsoluteUrl } from 'next/dist/shared/lib/utils';
 
-export default function Footer({data }) {
+export default function Footer({ data }) {
 
     function styleTitle() {
         useEffect(() => {

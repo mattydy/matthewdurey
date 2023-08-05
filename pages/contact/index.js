@@ -41,7 +41,6 @@ export default function Home() {
     setLiveCount(value);
 
     if (value == 500) {
-      console.log(value);
       setColor('#8ed8f8');
     } else if (value < 500) {
       setColor('#fff');

@@ -107,6 +107,10 @@
         width: calc(50% - 15px);
       }
     }
+
+    p a {
+      color: #8ed8f8;
+    }
   }
 
   &__image__multi {
@@ -475,6 +479,10 @@
       background-size: cover;
       display: inline-block;
       margin-right: 10px;
+    }
+
+    span {
+      color: #8ed8f8;
     }
   }
 
