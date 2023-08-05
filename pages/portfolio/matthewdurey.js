@@ -202,49 +202,49 @@ export default function Home(props) {
                 "--swiper-pagination-bullet-inactive-color" : 'white'
               }}
             >
-                              <SwiperSlide>
+            <SwiperSlide>
                     <Image
-                  src='/images/goup/our-team-overview.png'
+                  src='/images/matthewdurey/bc-new-back.png'
                   // height={400}
                   // width={212}
-                  height={419}
-                  width={735}
-                  alt="Overview of the 'Our Team' section"
+                  height={620}
+                  width={914}
+                  alt="back of new business card"
                 />
-                <span className={styles.caption}>Overview of the 'Our Team' section</span>
+                <span className={styles.caption}>Back of the new business card</span>
                 </SwiperSlide>
             <SwiperSlide>
               <Image
-                  src='/images/goup/our-team-post-type.png'
+                  src='/images/matthewdurey/bc-new-front.png'
                   // height={918}
                   // width={1612}
-                  height={419}
-                  width={735}
-                  alt="User Custom fields"
+                  height={620}
+                  width={914}
+                  alt="front of new business card"
                 />
-                <span className={styles.caption}>User custom fields</span>
+                <span className={styles.caption}>Front of new business card</span>
                 </SwiperSlide>
                 <SwiperSlide>
                     <Image
-                  src='/images/goup/our-team-slider.png'
+                  src='/images/matthewdurey/bc-old-back.png'
                   // height={400}
                   // width={212}
-                  height={419}
-                  width={735}
-                  alt="Our team sliders pulling through the select teams"
+                  height={620}
+                  width={402}
+                  alt="Back of old business card"
                 />
-                <span className={styles.caption}>Our team sliders pulling through the select teams</span>
+                <span className={styles.caption}>Back of old business card</span>
                 </SwiperSlide>
                 <SwiperSlide>
                     <Image
-                  src='/images/goup/our-team-blog.png'
+                  src='/images/matthewdurey/bc-old-front.png'
                   // height={400}
                   // width={212}
-                  height={419}
-                  width={735}
-                  alt="Our blog showing the authors"
+                  height={620}
+                  width={402}
+                  alt="Front of old business card"
                 />
-                <span className={styles.caption}>The users also showed as authors in the blog section</span>
+                <span className={styles.caption}>Front of old business card</span>
                 </SwiperSlide>
                 </Swiper>
           </div>
