@@ -102,7 +102,7 @@ export default function Home(props) {
           
           <div className={styles.content}>
           <h4>Instant Impact<span>:</span></h4>
-          <p>One of the key features of the Pitch site is the Imagry and colours. When you first access the website its clear that the work and clientele Pitch work with are impressive.<br></br><br></br>This theme continues thorughout the site, the majority of the links on teh site all include a powerful image.<br></br><br></br>Within each Service the user is again presented with a large image and text related to one of the case studies related to that service.</p>
+          <p>One of the key features of the Pitch site is the Imagry and colours. When you first access the website its clear that the work and clientele Pitch work with are impressive.<br></br><br></br>This theme continues thorughout the site, the majority of the links on the site all include a powerful image.<br></br><br></br>Within each Service the user is again presented with a large image and text related to one of the case studies related to that service.</p>
           </div>
 
         </div>
@@ -175,7 +175,7 @@ export default function Home(props) {
           
           <div className={styles.content}>
           <h4>Full of history<span>:</span></h4>
-          <p>To showcase Pitches history we built a slider, complete with the year, text and imagry. The user can easily navigate teh timeline, hovering over images to get further information.</p>
+          <p>To showcase Pitches history we built a slider, complete with the year, text and imagry. The user can easily navigate the timeline, hovering over images to get further information.</p>
           </div>
           
         </div>

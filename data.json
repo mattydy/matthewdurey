@@ -92,8 +92,8 @@
             "color": "#A71414",
             "subHeading": "NoDishrespect was a reciepe and food blogging website",
             "url": "This website is no longer online",
-            "intro": "In July 2020 I was appraoched by 2 friends who were looking to redesign and rebuild their website. Using the WP Recipe Maker plugin I helped redeisgn and rebuild the site, with a focus on high quality imagry to attract users and make the look as attractive as possible.",
-            "conclusion": "Rebuilding the NoDishrespect website enabled the client to easily upload reciepes and images, as well as allowing users to easily browse the site to find and follow the recipes with ease.",
+            "intro": "In July 2020 I was appraoched by 2 entrepreneurs who were looking to revamp their website and increase the page speed. Using the WP Recipe Maker plugin I helped redesign and rebuild the site, with a focus on high quality imagery to attract users and make the site look as attractive as possible.",
+            "conclusion": "Redesigning and rebuilding the website enabled the client to easily upload reciepes and high quality images, as well as allowing users to easily browse the site to find and follow the recipes with ease. The new website was a lot quicker than the old site, helping to improve the end users overall experience.",
             "getInTouch": "Do you have a blogging website that needs a revamp?"
         },
         {
@@ -103,7 +103,7 @@
             "image": "/images/auditstar.png",
             "services": "WordPress, SEO",
             "color": "#44C7F4",
-            "subHeading": "Auditstar",
+            "subHeading": "AuditStar is a marketing solutions and media auditing consultancy with global reach",
             "url": "https://www.auditstar.co.uk/",
             "intro": "I built the Auditstar website while working for Go Up. Auditstar wanted to rebrand their website to clarify what they do as a company and attract further clients. They also wanted to have multiple languages to appeal to clientele in the relevant countries.",
             "conclusion": "Rebranding the Auditstar website and enabling multiple languages allowed the client to expand their reach and attract more clients in their target countries.",
@@ -113,13 +113,13 @@
             "id": 8,
             "slug": "crash-charity",
             "title": "Crash Charity",
-            "image": "/images/crash.png",
+            "image": "/images/crash/crash.png",
             "services": "WordPress, SEO",
             "color": "#e30613",
             "subHeading": "Crash are an organisation who help homelessness charities and hospices with vital construction projects",
             "url": "https://www.crash.org.uk",
             "intro": "I built the Crash Charity website while working for Go Up. Crash approached Go Up looking to rebrand the company, including the website, with the aim to look professional and attractive and ultimtley get donations.",
-            "conclusion": "Rebranding the Company and website has led to a impressive and professional website, which clearly dictates who Crash are and how they help Charities. With a focus on UX, it makes it a easier site to navigate and ultimelty allows the users to donate to thier causes easily.",
+            "conclusion": "Rebranding the Company and website has led to a impressive and professional website, which clearly dictates who Crash are and how they help Charities. With a focus on UX, it makes it a easier site to navigate and ultimately allows the users to donate to their causes easily.",
             "getInTouch": "Do you need to clarify who you are and what you provide for customers?"
         },
         {
@@ -170,7 +170,7 @@
             "color": "#2fc978",
             "subHeading": "London’s leading SEO and search marketing agency for unrivalled online experiences",
             "url": "https://www.goup.co.uk",
-            "intro": "While working for Go Up, we decided to update the website as the old site was outdated. With a fresh design and moving from Classic editor to Gutenburg, the website has a new look and feel that is 2023",
+            "intro": "While working for Go Up, we decided to update the website as the old site was outdated. With a fresh design and moving from Classic editor to Gutenburg, the website has a new look and feels like it belongs in 2023.",
             "conclusion": "Converting the Go Up website from Classic Editor to the Gutenburg Editor and rebranding has made Go Up a rival in the SEO space, giving potential clients the reassurance that they are getting the best treatment possible.",
             "getInTouch": "Want to update your website's CMS?"
         }

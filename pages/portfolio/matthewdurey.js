@@ -165,7 +165,7 @@ export default function Home(props) {
           </div>
           <div className={styles.content}>
             <h4>Detailed Portfolio<span>:</span></h4>
-            <p>On the previous website the portfolio page listed all the websites I had worked on. When the links were clicked on the user was directed to the website. I decided that on the new website I should talk a bit about the website.<br></br><br></br>On the new site I have created a page for each project. On teh portfolio page I have listed the services used and when hovered on the text changes to the featured colour of the project. Within each project I talk about certain elements of the site to give users an insight into how the site works and features that help the site stand out.</p>
+            <p>On the previous website the portfolio page listed all the websites I had worked on. When the links were clicked on the user was directed to the website. I decided that on the new website I should talk a bit about the website.<br></br><br></br>On the new site I have created a page for each project. On the portfolio page I have listed the services used and when hovered on the text changes to the featured colour of the project. Within each project I talk about certain elements of the site to give users an insight into how the site works and features that help the site stand out.</p>
           </div>
         </div>
 
@@ -295,7 +295,7 @@ export default function Home(props) {
           </div>
           <div className={styles.content}>
             <h4>Clean Code<span>:</span></h4>
-            <p>As I was moving from WordPress to React I wanted to make the process of addig portfolio projects simple. I decided to break each prtfolio page into components and by creating a data.json file, I could add the majority of content in one place and it would dynamically update on the site.<br></br><br></br>Within the individual portfolio pages I called the relevant components (Portfolio Intro & Portfolio Conclusion) and passed teh data through. Then I simply added the relevant content on the page.</p>
+            <p>As I was moving from WordPress to React I wanted to make the process of addig portfolio projects simple. I decided to break each prtfolio page into components and by creating a data.json file, I could add the majority of content in one place and it would dynamically update on the site.<br></br><br></br>Within the individual portfolio pages I called the relevant components (Portfolio Intro & Portfolio Conclusion) and passed the data through. Then I simply added the relevant content on the page.</p>
           </div>
         </div>
 
