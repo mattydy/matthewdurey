@@ -109,7 +109,7 @@ export default function Home(props) {
                 </div>
           <div className={styles.content}>
             <h4>Slide out<span>:</span></h4>
-            <p>One of the key features of the website is the slide out section. This section holds the menu as well as the contact form. When the hamburger menu is clicked the slide out shows the Main menu and when any of the 'Let's talk' buttons/links are clicked it shows the contact form. When the contact form is submited, the content changes to let the user know the form has been sent.</p>
+            <p>One of the key features of the website is the slide out section. This section holds the menu as well as the contact form. When the hamburger menu is clicked the slide out shows the Main menu and when any of the 'Let's talk' buttons/links are clicked it shows the contact form. When the contact form is submitted, the content changes to let the user know the form has been sent.</p>
           </div>
         </div>
 
@@ -175,7 +175,7 @@ export default function Home(props) {
           </div>
           <div className={styles.content}>
             <h4>Team Profiles<span>:</span></h4>
-            <p>Throughout the website one recurring theme is the staff profiles. On the old website all staff images and references were individual, meaingin that if a staff member left their profile would need to be removed from each page. This was hard to manage and usually meant pages were skipped.<br></br><br></br>To overcome this on the new website I decided to create custom fields within the Users section. This meant I could add a field where the users 'Status' could be enabled or disabled. I also added a 'Teams' selector which when used with the 'Team' slider block pulled through the correct people.</p>
+            <p>Throughout the website one recurring theme is the staff profiles. On the old website all staff images and references were individual, meaning that if a staff member left their profile would need to be removed from each page. This was hard to manage and usually meant pages were skipped.<br></br><br></br>To overcome this on the new website I decided to create custom fields within the Users section. This meant I could add a field where the users 'Status' could be enabled or disabled. I also added a 'Teams' selector which when used with the 'Team' slider block pulled through the correct people.</p>
           </div>
         </div>
 
@@ -253,7 +253,7 @@ export default function Home(props) {
                 </div>
           <div className={styles.content}>
             <h4>Testimonials<span>:</span></h4>
-            <p>Another feature of the website was the testimonial slider. Testimonails are used throughout the website, on the homepage, case studies page and about us page to name a few. On the old website these testimonials were manually added, meaning they needed to be copy and pasted across numerous pages.<br></br><br></br>To overcome this I decided to create a Testimpnaisl post type, allowing testiomoinals to be created once and pulled though wherever they were needed.</p>
+            <p>Another feature of the website was the testimonial slider. Testimonials are used throughout the website, on the homepage, case studies page and about us page to name a few. On the old website these testimonials were manually added, meaning they needed to be copy and pasted across numerous pages.<br></br><br></br>To overcome this I decided to create a Testimonial post type, allowing testimonials to be created once and pulled though wherever they were needed.</p>
           </div>
         </div>
 
@@ -330,7 +330,7 @@ export default function Home(props) {
                 </div>
           <div className={styles.content}>
             <h4>Theme options<span>:</span></h4>
-            <p>Lots of the content on the site is set within the Theme Options section, meaning that content doesn't need to be duplicated on certian pages. Some examples include the Main Menu, the Benefits & Perks section, the 404 page and Social media links.</p>
+            <p>Lots of the content on the site is set within the Theme Options section, meaning that content doesn't need to be duplicated on certain pages. Some examples include the Main Menu, the Benefits & Perks section, the 404 page and Social media links.</p>
           </div>
         </div>
       </div>

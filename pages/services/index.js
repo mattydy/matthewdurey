@@ -24,7 +24,7 @@ export default function Home() {
 
           <div className={styles.innerPage}>
             <div className={styles.innerPage__text}>
-              <p>I offer a wide range of services, all operating together to give you the best online presence possible. All Websites are mobile responsive and are compatible with all major web browsers, as well as iOS and Android Devices. All sites are built with the user in mind, meaning simple and quick ways to update your website, without the need to reach out to a developer. All sites also use SEO best practices, allowing for higher ranking on Google.</p>
+              <p>I offer a wide range of services, all operating together to give you the best online presence possible. All websites are mobile responsive and are compatible with all major web browsers, as well as iOS and Android Devices. All sites are built with the user in mind, meaning simple and quick ways to update your website, without the need to reach out to a developer. All sites also use SEO best practices, allowing for higher ranking on Google.</p>
             </div>
             <div className={styles.innerPage__fullText}>
               <div className={styles.innerPage__half}>
@@ -37,7 +37,7 @@ export default function Home() {
                 <h3>Shopify<span>:</span></h3>
                 <p>Are you looking to create an online shop, whether that is for your business or side hobby? I can provide Shopify sites suited to your needs.<br></br><br></br>Shopify is an eCommerce platform allowing you to sell items online to customers all over the world.</p>
                 <h3>Website Design<span>:</span></h3>
-                <p>Not sure what you want your website to look like? I also offer design services. We can scour the market and once we have a list of websites/functionality I can create high fidelity designs based on these ideas. Together we can edit these before moving on to the build stage.</p>
+                <p>Not sure what you want your website to look like? I also offer design services. We can scour the market and once we have a list of websites/functionalities I can create high fidelity designs based on these ideas. Together we can edit these before moving on to the build stage.</p>
                 <h3>Other services<span>:</span></h3>
                 <p>Looking for something in particular but don't see it here? Reach out via the <Link href="/contact"><a>Contact</a></Link> page and if it's something I'm unable to provide myself, I'll use my vast network to put you in touch with people who can help.</p>
               </div>
