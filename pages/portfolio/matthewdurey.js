@@ -184,7 +184,7 @@ export default function Home(props) {
           </div>
           <div className={styles.content}>
             <h4>User journey<span>:</span></h4>
-            <p>When creating a webiste one of the main things to consider is the user journey. This means considering what you want to achieve on the webiste, in this case potiental clients getting in touch with me.<br></br><br></br>At the bottom of each page I have added buttons, to allow the user to easily navigate to my contact page where they can reach out.</p>
+            <p>When creating a website one of the main things to consider is the user journey. This means considering what you want to achieve on the website, in this case potential clients getting in touch with me.<br></br><br></br>At the bottom of each page I have added buttons, to allow the user to easily navigate to my contact page where they can reach out.</p>
           </div>
         </div>
 
@@ -295,7 +295,7 @@ export default function Home(props) {
           </div>
           <div className={styles.content}>
             <h4>Clean Code<span>:</span></h4>
-            <p>As I was moving from WordPress to React I wanted to make the process of addig portfolio projects simple. I decided to break each prtfolio page into components and by creating a data.json file, I could add the majority of content in one place and it would dynamically update on the site.<br></br><br></br>Within the individual portfolio pages I called the relevant components (Portfolio Intro & Portfolio Conclusion) and passed the data through. Then I simply added the relevant content on the page.</p>
+            <p>As I was moving from WordPress to React I wanted to make the process of adding portfolio projects simple. I decided to break each portfolio page into components and by creating a data.json file I could add the majority of content in one place and it would dynamically update on the site.<br></br><br></br>Within the individual portfolio pages I called the relevant components (Portfolio Intro & Portfolio Conclusion) and passed the data through. Then I simply added the relevant content on the page.</p>
           </div>
         </div>
 

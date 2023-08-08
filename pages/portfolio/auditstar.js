@@ -88,7 +88,7 @@ export default function Home(props) {
           </div>
           <div className={styles.content}>
             <h4>Multiple Languages<span>:</span></h4>
-            <p>Auditstar have locations throughout the world, so they wanted to have the website in numerous languages (English, Spanish & German). Using the WPML language plugin, I was able to create copies of the website where Auditstar provided the translations.<br></br><br></br>All together there are three sites, the English site (<a href="https://auditstar.co.uk/" target="_blank">https://auditstar.co.uk/</a>), Spanish site (<a href="https://auditstar.es/" target="_blank">https://auditstar.es/</a>) and German site (<a href="https://auditstar.de/" target="_blank">https://auditstar.de/</a>).</p>
+            <p>Auditstar have locations throughout the world so they wanted to have the website in numerous languages (English, Spanish & German). Using the WPML language plugin, I was able to create copies of the website where Auditstar provided the translations.<br></br><br></br>All together there are three sites, the English site (<a href="https://auditstar.co.uk/" target="_blank">https://auditstar.co.uk/</a>), Spanish site (<a href="https://auditstar.es/" target="_blank">https://auditstar.es/</a>) and German site (<a href="https://auditstar.de/" target="_blank">https://auditstar.de/</a>).</p>
           </div>
         </div>
 
@@ -176,7 +176,7 @@ export default function Home(props) {
           </div>
           <div className={styles.content}>
             <h4>Multiple Locations<span>:</span></h4>
-            <p>As mentioned before Auditstar have offices all over the world. They wanted a section on the website where they could showcase this. We created a map with pins, blue pins with no details and orange pins which have more details.<br></br><br></br>Within the CMS I created a 'locations' post type where the client can upload the locations, selecting whether its an orange or blue pin.</p>
+            <p>As mentioned before Auditstar have offices all over the world. They wanted a section on the website where they could showcase this. We created a map with pins, blue pins with no details and orange pins which have more details.<br></br><br></br>Within the CMS I created a 'locations' post type where the client can upload the locations, selecting whether it's an orange or blue pin.</p>
           </div>
         </div>
 

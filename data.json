@@ -1,7 +1,7 @@
 {
     "general": [
         {
-            "highlighted": "Below I have listed some key features on the website. They include parts of the website which the client wanted to change from the original design, elements that I have coded to save time and repeation and areas of the site that were key for functionality/user experience."
+            "highlighted": "Below I have listed some key features on the website. They include parts of the website which the client wanted to change from the original design, elements that I have coded to save time and repetition and areas of the site that were key for functionality/user experience."
         }
     ],
     "portfolio": [
@@ -54,7 +54,7 @@
             "subHeading": "Hatton Adventure World are part of the Hatton Country Park based in Hatton. This website is for the Adventure World located there",
             "url": "https://adventure.hattonworld.com/",
             "intro": "I built the Hatton Adventure World website while working for Kuki Digital. Hatton Country World were a long time client of Kuki and wanted to bring all their websites together with the same design.",
-            "conclusion": "Hatton Adventure World give the customer an idea fo what there is to explore. The design lets users know it is an advture park.",
+            "conclusion": "Hatton Adventure World give the customer an idea of what there is to explore. The design lets users know it is an adventure park.",
             "getInTouch": "Like this website?"
         },
         {
@@ -66,9 +66,9 @@
             "color": "#787878",
             "subHeading": "AQ Revolution are a London based Company helping organisations, leaders and teams harness the freedom to truly think",
             "url": "https://aqrevolution.com/",
-            "intro": "AQ Revolution was the first Freelance website I built. They were reffered to be by a former employer (Kuki Digital). They were a new company and wanted to have a website focused on imagtry to fully protray who they are as a company.",
-            "conclusion": "Using parralax images, we were able to convey to users the ideallology of AQ Revolution.",
-            "getInTouch": "Want to get your companies message out there?"
+            "intro": "AQ Revolution was the first Freelance website I built. They were referred to me by a former employer (Kuki Digital). They were a new company and wanted to have a website focused on imagery to fully portray who they are as a company.",
+            "conclusion": "Using parallax images, we were able to convey to users the idealology of AQ Revolution.",
+            "getInTouch": "Want to get your company's message out there?"
         },
         {
             "id": 5,
@@ -93,7 +93,7 @@
             "subHeading": "NoDishrespect was a reciepe and food blogging website",
             "url": "This website is no longer online",
             "intro": "In July 2020 I was appraoched by 2 entrepreneurs who were looking to revamp their website and increase the page speed. Using the WP Recipe Maker plugin I helped redesign and rebuild the site, with a focus on high quality imagery to attract users and make the site look as attractive as possible.",
-            "conclusion": "Redesigning and rebuilding the website enabled the client to easily upload reciepes and high quality images, as well as allowing users to easily browse the site to find and follow the recipes with ease. The new website was a lot quicker than the old site, helping to improve the end users overall experience.",
+            "conclusion": "Redesigning and rebuilding the website enabled the client to easily upload recipes and high quality images, as well as allowing users to easily browse the site to find and follow the recipes with ease. The new website was a lot quicker than the old site, helping to improve the end users overall experience.",
             "getInTouch": "Do you have a blogging website that needs a revamp?"
         },
         {
@@ -118,8 +118,8 @@
             "color": "#e30613",
             "subHeading": "Crash are an organisation who help homelessness charities and hospices with vital construction projects",
             "url": "https://www.crash.org.uk",
-            "intro": "I built the Crash Charity website while working for Go Up. Crash approached Go Up looking to rebrand the company, including the website, with the aim to look professional and attractive and ultimtley get donations.",
-            "conclusion": "Rebranding the Company and website has led to a impressive and professional website, which clearly dictates who Crash are and how they help Charities. With a focus on UX, it makes it a easier site to navigate and ultimately allows the users to donate to their causes easily.",
+            "intro": "I built the Crash Charity website while working for Go Up. Crash approached Go Up looking to rebrand the company, including the website, with the aim to look professional and attractive and ultimately get donations.",
+            "conclusion": "Rebranding the Company and website has led to an impressive and professional website, which clearly dictates who Crash are and how they help Charities. With a focus on UX, it makes it an easier site to navigate and ultimately allows the users to donate to their causes easily.",
             "getInTouch": "Do you need to clarify who you are and what you provide for customers?"
         },
         {
@@ -131,8 +131,8 @@
             "color": "#eaff00",
             "subHeading": "Pitch is an integrated communications agency building brands people can be passionate about",
             "url": "https://www.pitch.co.uk/",
-            "intro": "In 2021, while workign for Go Up, Pitch wanted to rebrand their website to better portray the case studies they had completed and the high level clientele they work with.",
-            "conclusion": "Rebranding the Pitch site with a focus on large large and high definition images has lead to a more impressive site. In return Pitch have seen an increase in cutomers and enquiries.",
+            "intro": "In 2021, while working for Go Up, Pitch wanted to rebrand their website to better portray the case studies they had completed and the high level clientele they work with.",
+            "conclusion": "Rebranding the Pitch site with a focus on large and high definition images has led to a more impressive site. In return Pitch have seen an increase in customers and enquiries.",
             "getInTouch": "Would you like a website like Pitch?"
         },
         {
@@ -142,7 +142,7 @@
             "image": "/images/executive-coaching-consultancy.png",
             "services": "WordPress, SEO",
             "color": "#ffa800",
-            "subHeading": "Executive Coaching Consultancy provide support to clients as they progress toward being equitable workplaces",
+            "subHeading": "Executive Coaching Consultancy provide support to clients as they progress towards being equitable workplaces",
             "url": "https://www.executive-coaching.co.uk/",
             "intro": "I built the Executive Coaching Consultancy website while working for Go Up. The Client's website was using the classic version of WordPress which meant they could not easily change the content & layout of their website without the help of a developer. They wanted Go Up to rebuild the website within Gutenburg so they could customise it as needed.",
             "conclusion": "Converting the Executive Coaching Consultancy website from Classic Editor to the Gutenburg Editor allowed the client to make changes to their website without needing to contact a developer, saving the company time and money.",
@@ -157,7 +157,7 @@
             "color": "#8ed8f8",
             "subHeading": "Rebranding my own website",
             "url": "https://www.matthewdurey.com",
-            "intro": "Wanting to learn React, this was the perfect oppurtunity for me to rebrand my website. I decided to use features from other sites on my portfolio to give it a clean modern design.",
+            "intro": "Wanting to learn React, this was the perfect opportunity for me to rebrand my website. I decided to use features from other sites on my portfolio to give it a clean modern design.",
             "conclusion": ".",
             "getInTouch": "Want to rebrand?"
         },
