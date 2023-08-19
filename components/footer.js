@@ -6,8 +6,6 @@ export default function Footer() {
 
     return (
         <footer className='footer'>
-            <style jsx>{``}
-            </style>
             <Link href="https://www.linkedin.com/in/matthew-durey-2511a6142/"><a target="_blank">LinkedIn</a></Link><span>|</span><Link href="/privacy-policy"><a target="_blank">Privacy Policy</a></Link><span>|</span><Link href="/cookie-policy"><a target="_blank">Cookie Policy</a></Link>
         </footer>
     )
