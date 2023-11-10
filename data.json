@@ -173,6 +173,19 @@
             "intro": "While working for Go Up, we decided to update the website as the old site was outdated. With a fresh design and moving from Classic editor to Gutenburg, the website has a new look and feels like it belongs in 2023.",
             "conclusion": "Converting the Go Up website from Classic Editor to the Gutenburg Editor and rebranding has made Go Up a rival in the SEO space, giving potential clients the reassurance that they are getting the best treatment possible.",
             "getInTouch": "Want to update your website's CMS?"
+        },
+        {
+            "id": 13,
+            "slug": "did-somebody-say-2023",
+            "title": "Just Eat Did Somebody Say Campaign 2023",
+            "image": "/images/jet-dds/jet-dds-homepage.png",
+            "services": "React",
+            "color": "#FF8000",
+            "subHeading": "Informative landing page for the 2023 Just Eat 'Did Somebody Say' global brand campaign featuring Christina Aguilera and Latto",
+            "url": "https://www.just-eat.co.uk/explore/did-somebody-say",
+            "intro": "While working for Just Eat Takeaway.com, I was tasked with building an informative landing page for the 'Did Somebody Say' global brand campaign. The page was built using Vue Js and will be featured in all Just Eat markets and languages.",
+            "conclusion": "Creating an Informative Landing Page allows consumers to read about and learn more information on the campaign. It also allows Just Eat Takeaway.com to focus on certain areas of the campaign and generate more interactions, ultimately leading to more orders through the platform.",
+            "getInTouch": ""
         }
     ]
 }

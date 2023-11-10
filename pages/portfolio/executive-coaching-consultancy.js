@@ -75,7 +75,7 @@ export default function Home(props) {
                 <span className={styles.caption}>Impact Stats block on Desktop</span>
                 </SwiperSlide>
                 <SwiperSlide>
-                            <Image
+                <Image
                   src='/images/ecc/impact-stats-mobile.jpeg'
                   // height={400}
                   // width={212}
