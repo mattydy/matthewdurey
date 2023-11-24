@@ -85,7 +85,7 @@ export default function Home(props) {
           <div className={styles.content}>
             <h4>One codebase, multiple languages<span>:</span></h4>
             <p>I built this project in Vue JS and used a json file to pull the content. This allows me to have one codebase with different content, allowing for each market.<br /><br />The content.json file is seperated into localities, representing the country and language. When the project is built it finds the locality (which is set in the local environment file) and pulls the relevant data through. The file also allows the logos to change to the local brand name (i.e Thuisbezogd, Pyszne.pl and Takeaway.com). Within each section below I have explained in more detail about the code.<br/><br/>
-            You can see the other landing pages here: <Link href="https://www.just-eat.ie/explore/did-somebody-say/"><a target="_blank">Ireland</a></Link></p>
+            You can see the other landing pages here: <Link href="https://www.just-eat.ie/explore/did-somebody-say/"><a target="_blank">Ireland</a></Link>, <Link href="https://www.takeaway.com/bg/deals/koi-kaza/"><a target="_blank">Bulgaria</a></Link>, <Link href="https://www.lieferando.de/deals/hoer-ich-da-lieferando/"><a target="_blank">Germany</a></Link>, <Link href="https://www.thuisbezorgd.nl/deals/zei-dr-iemand-thuisbezorgd/"><a target="_blank">Netherlands</a></Link>, <Link href="https://www.just-eat.ch/deals/daenksch-au-grad-a-just-eat/"><a target="_blank">Switzerland</a></Link> and <Link href="https://www.lieferando.at/deals/hoer-ich-da-lieferando/"><a target="_blank">Austria</a></Link>.</p>
           </div>
         </div>
 
