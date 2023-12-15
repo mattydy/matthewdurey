@@ -185,7 +185,72 @@
             "url": "https://www.just-eat.co.uk/explore/did-somebody-say",
             "intro": "While working for Just Eat Takeaway.com, I was tasked with building an informative landing page for the 'Did Somebody Say' global brand campaign. The page was built using Vue Js and will be featured in all Just Eat markets and languages.",
             "conclusion": "Creating an Informative Landing Page allows consumers to read about and learn more information on the campaign. It also allows Just Eat Takeaway.com to focus on certain areas of the campaign and generate more interactions, ultimately leading to more orders through the platform.",
-            "getInTouch": ""
+            "getInTouch": "Wanting something similiar?"
+        },
+        {
+            "id": 14,
+            "slug": "just-eat-collection-2023",
+            "title": "Just Eat Collection 2023",
+            "image": "/images/jet-collection.png",
+            "services": "React",
+            "color": "#FF8000",
+            "subHeading": "This is a collection of work completed by myself during my empolyment at Just Eat during 2023",
+            "getInTouch": "Looking for something similiar?",
+            "conclusion": "During my employment at Just Eat Takeaway.com I worked on a variety of projects, using both Static HTML and Vue Js.",
+            "subProjects": [
+                {
+                    "id": 14.1,
+                    "slug": "just-eat-collection-2023/zuri-isst",
+                    "title": "Zuri Isst",
+                    "color": "#F75E28",
+                    "image": "/images/zuri-isst.png",
+                    "services": "React",
+                    "url": "https://www.just-eat.ch/zueri-isst/",
+                    "subHeading": "Unlock a new restaurant on the Just Eat platform every month",
+                    "intro": "Zuri Isst is a project that ran from September 2023 until March 2024. Every month, a new restaurant in Zürich was added to the Just Eat Takeaway.com platform and featured on this landing page, giving potential customers an insight into the restaurant.",
+                    "conclusion": "Using a mixture of JavaScript functions I have been able to create a landing page to display different information depending on the month.",
+                    "getInTouch": "Looking for something similiar?"
+                },
+                {
+                    "id": 14.2,
+                    "slug": "just-eat-collection-2023/treatmas",
+                    "title": "Treatmas",
+                    "color": "#F2A0B6",
+                    "image": "/images/treatmas.png",
+                    "services": "Static HTML",
+                    "url": "https://www.just-eat.co.uk/deals/treatmas/",
+                    "subHeading": "Order and unwrap 3 treats in the month of December",
+                    "intro": "Treatmas is a campaign that runs over the month of December, allowing users of the Just Eat Takeaway.com platform to win prizes after placing an order. The aim of this project was to create an Informative Landing Page and a Terms & Conditions page for the campaign.",
+                    "conclusion": "Using a variety of features, I have been able to create an Informative Landing Page and a Terms & Conditions page to display information on the campaign.",
+                    "getInTouch": "Looking for something similiar?"
+                },
+                {
+                    "id": 14.3,
+                    "slug": "just-eat-collection-2023/taste-the-summer",
+                    "title": "Taste the Summer",
+                    "color": "#C1DADE",
+                    "image": "/images/tastethesummer.png",
+                    "services": "Static HTML",
+                    "url": "https://www.just-eat.co.uk/deals/taste-the-summer/",
+                    "subHeading": "Win hundreds of prizes when placing an order",
+                    "intro": "Taste the summer was a campaign that ran during the month of July, allowing users of the Just Eat Takeaway.com platform to win prizes after placing an order which contained an product from Coca-Cola®, Fanta® or Sprite®. The aim of this project was to create an Informative Landing Page and a Terms & Conditions page for the campaign.",
+                    "conclusion": "Using a variety of features, I have been able to create an Informative Landing Page and a Terms & Conditions page to display information on the campaign.",
+                    "getInTouch": "Looking for something similiar?"
+                },
+                {
+                    "id": 14.4,
+                    "slug": "just-eat-collection-2023/pr-decision-tree",
+                    "title": "PR Decision Tree",
+                    "color": "#F6C243",
+                    "image": "/images/pr-tree.png",
+                    "services": "React",
+                    "url": "https://www.just-eat.co.uk/deals/pr-decision-tree",
+                    "subHeading": "Letting Just Eat Takeaway.com staff know if they can share a PR news story",
+                    "intro": "The PR Decision Tree was an internal project aimed at helping the PR team work out what to do when creating company PR. The PR Decision Tree was built using VueJS and allows users to slect 'Yes' or 'No' to various questions until ultimately coming to the correct suggestion.",
+                    "conclusion": "Using a mixture of VueJS and HTML, I have created an interactive application that gives users clear instructions through a series of questions.",
+                    "getInTouch": "Looking for something similiar?"
+                }
+            ]
         }
     ]
 }
