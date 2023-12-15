@@ -46,25 +46,25 @@ export default function Footer({ data }) {
             <MenuToggle></MenuToggle>
             <h2>{data.subHeading}<span>.</span></h2>
             <div className={styles.portfolioIntro}>
-            <div className={styles.details}>
-            <Image
-                src={data.image}
-                height={459}
-                width={806}
-                alt=""
-            />
-            <p><strong>Services:</strong> {data.services}</p>
-            <p><strong>URL:</strong> <Link href={data.url}><a target="_blank">{data.url}</a></Link></p>
+                <div className={styles.details}>
+                    <Image
+                    src={data.image}
+                    height={459}
+                    width={806}
+                    alt=""
+                    />
+                    <p><strong>Services:</strong> {data.services}</p>
+                    <p><strong>URL:</strong> <Link href={data.url}><a target="_blank">{data.url}</a></Link></p>
+                </div>
+                <div className={styles.intro}>
+                    <h3>Introduction<span>:</span></h3>
+                    <p>{data.intro}</p>
+                    <div className={styles.stats}>
+                        <p><strong>Services:</strong> {data.services}</p>
+                        <p><strong>URL:</strong> {isURL ? <Link href={data.url}><a target="_blank">{data.url}</a></Link> : data.url}</p>
+                    </div>
+                </div>
             </div>
-            <div className={styles.intro}>
-            <h3>Introduction<span>:</span></h3>
-            <p>{data.intro}</p>
-            <div className={styles.stats}>
-            <p><strong>Services:</strong> {data.services}</p>
-            <p><strong>URL:</strong> {isURL ? <Link href={data.url}><a target="_blank">{data.url}</a></Link> : data.url}</p>
-            </div>
-            </div>
-        </div>
         </div>
     )
 }
