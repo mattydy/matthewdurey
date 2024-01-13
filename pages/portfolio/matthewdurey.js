@@ -275,7 +275,7 @@ export default function Home(props) {
                   // width={212}
                   height={419}
                   width={735}
-                  alt="Data Json File"
+                  alt="data.Json File"
                 />
                 <span className={styles.caption}>This is the data.json file which holds the portfolio info</span>
                 </SwiperSlide>
