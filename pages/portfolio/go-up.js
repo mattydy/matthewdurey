@@ -68,7 +68,7 @@ export default function Home(props) {
                   // width={212}
                   height={419}
                   width={735}
-                  alt="Impact Stats block on Mobile"
+                  alt="Main menu on page"
                 />
                 <span className={styles.caption}>Main menu on page</span>
                 </SwiperSlide>
