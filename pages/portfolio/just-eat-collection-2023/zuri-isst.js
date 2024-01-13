@@ -22,9 +22,9 @@ export async function getStaticProps() {
   }
 }
 export default function Home(props) {
-  const posts = props.portfolio[14].subProjects[0];
+  const posts = props.portfolio[14].subProjects[1];
   const color = posts.color;
-  const nextProject = props.portfolio[14].subProjects[1];
+  const nextProject = props.portfolio[14].subProjects[2];
   
   return (
     <div>
@@ -70,9 +70,9 @@ export default function Home(props) {
                   // width={212}
                   height={419}
                   width={735}
-                  alt="Content.json file"
+                  alt="Content.js file"
                 />
-                <span className={styles.caption}>Content.json file</span>
+                <span className={styles.caption}>Content.js file</span>
                 </SwiperSlide>
                 <SwiperSlide>
                     <Image
@@ -100,7 +100,7 @@ export default function Home(props) {
         </div>
           <div className={styles.content}>
             <h4>One file for two languages<span>:</span></h4>
-            <p>As this landing page is focused on restaurants in Zürich, there are two languages needed (German and English). Instead of having to replicate the same code twice, I have used a JSON file to contain the relevant data and then pulled that through whenever it is needed.</p>
+            <p>As this landing page is focused on restaurants in Zürich, there are two languages needed (German and English). Instead of having to replicate the same code twice, I have used a js file to contain the relevant data and then pulled that through whenever it is needed.</p>
           </div>
         </div>
 
@@ -145,7 +145,7 @@ export default function Home(props) {
             </div>
           <div className={styles.content}>
             <h4>Different restaurants each month<span>:</span></h4>
-            <p>Each month, the landing page features a different restaurant. This means the featured image, restaurant logo, restaurant content and image gallery all change to display the new content.<br></br><br></br>Within the content.json file I have created an array, where I input the relevant details for the restaurant. This is done for both the German and English markets.</p>
+            <p>Each month, the landing page features a different restaurant. This means the featured image, restaurant logo, restaurant content and image gallery all change to display the new content.<br></br><br></br>Within the content.js file I have created an array, where I input the relevant details for the restaurant. This is done for both the German and English markets.</p>
           </div>
         </div>
 
@@ -218,7 +218,7 @@ export default function Home(props) {
             </div>
           <div className={styles.content}>
             <h4>Changing month<span>:</span></h4>
-            <p>One feature that the stakeholder wanted on this project was the ability to see the previous month restaurants using tabs on the page. This meant that I needed to create a changeMonth function and apply it to each tab. Once the user clicks on the previous month, this function gets the class name from the tab (which is the month) and finds the relevant content from the content.json file.</p>
+            <p>One feature that the stakeholder wanted on this project was the ability to see the previous month restaurants using tabs on the page. This meant that I needed to create a changeMonth function and apply it to each tab. Once the user clicks on the previous month, this function gets the class name from the tab (which is the month) and finds the relevant content from the content.js file.</p>
           </div>
         </div>
 

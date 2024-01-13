@@ -76,7 +76,7 @@ export default function Home(props) {
             </div>
             <div className={styles.intro}>
                 <h3>Introduction<span>:</span></h3>
-                <p>This is a collection of work completed during my employement at Just Eat Takeaway.com during 2023. The work includes Landing Pages for Campaigns and Internal Applications. Projects have been built using a mixture of React (Vue JS) and static HTML.<br></br><br></br>Click on each project to view more details.</p>
+                <p>This is a collection of work completed during my employment at Just Eat Takeaway.com during 2023. The work includes Landing Pages for Campaigns and Internal Applications. Projects have been built using a mixture of React (Vue JS) and static HTML.<br></br><br></br>Click on each project to view more details.</p>
             </div>
         </div>
         </div>
