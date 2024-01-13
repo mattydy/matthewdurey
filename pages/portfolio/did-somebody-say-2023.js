@@ -66,9 +66,9 @@ export default function Home(props) {
                   src='/images/jet-dds/jet-dds-content.png'
                   height={419}
                   width={735}
-                  alt="content.json file"
+                  alt="content.js file"
                 />
-                <span className={styles.caption}>Content.json file showing the English and Irish content</span>
+                <span className={styles.caption}>Content.js file showing the English and Irish content</span>
             </SwiperSlide>
             <SwiperSlide>
                 <Image
@@ -84,7 +84,7 @@ export default function Home(props) {
           </div>
           <div className={styles.content}>
             <h4>One codebase, multiple languages<span>:</span></h4>
-            <p>I built this project in Vue JS and used a json file to pull the content. This allows me to have one codebase with different content, allowing for each market.<br /><br />The content.json file is seperated into localities, representing the country and language. When the project is built it finds the locality (which is set in the local environment file) and pulls the relevant data through. The file also allows the logos to change to the local brand name (i.e Thuisbezogd, Pyszne.pl and Takeaway.com). Within each section below I have explained in more detail about the code.<br/><br/>
+            <p>I built this project in Vue JS and used a js file to pull the content. This allows me to have one codebase with different content, allowing for each market.<br /><br />The content.js file is seperated into localities, representing the country and language. When the project is built it finds the locality (which is set in the local environment file) and pulls the relevant data through. The file also allows the logos to change to the local brand name (i.e Thuisbezogd, Pyszne.pl and Takeaway.com). Within each section below I have explained in more detail about the code.<br/><br/>
             You can see the other landing pages here: <Link href="https://www.just-eat.ie/explore/did-somebody-say/"><a target="_blank">Ireland</a></Link>, <Link href="https://www.takeaway.com/bg/deals/koi-kaza/"><a target="_blank">Bulgaria</a></Link>, <Link href="https://www.lieferando.de/deals/hoer-ich-da-lieferando/"><a target="_blank">Germany</a></Link>, <Link href="https://www.thuisbezorgd.nl/deals/zei-dr-iemand-thuisbezorgd/"><a target="_blank">Netherlands</a></Link>, <Link href="https://www.just-eat.ch/deals/daenksch-au-grad-a-just-eat/"><a target="_blank">Switzerland</a></Link> and <Link href="https://www.lieferando.at/deals/hoer-ich-da-lieferando/"><a target="_blank">Austria</a></Link>.</p>
           </div>
         </div>
@@ -126,16 +126,16 @@ export default function Home(props) {
                 src='/images/jet-dds/jet-dds-hero.png'
                 height={419}
                 width={735}
-                alt="content.json showing hero content"
+                alt="content.js showing hero content"
               />
-              <span className={styles.caption}>Content.json file showing hero content</span>
+              <span className={styles.caption}>Content.js file showing hero content</span>
             </SwiperSlide>
           </Swiper>
 
           </div>
           <div className={styles.content}>
             <h4>Impactful start<span>:</span></h4>
-            <p>When a consumer first lands on the page they will notice the large image of the talents (Christina Aguilera & Latto) as well as the 'Did Somebody Say Just Eat' logo. The background is set to the brand orange allowing consumers to know they are on the Just Eat platform.<br /><br />Within the code we import the content.json file and call the data through to the relevant places.</p>
+            <p>When a consumer first lands on the page they will notice the large image of the talents (Christina Aguilera & Latto) as well as the 'Did Somebody Say Just Eat' logo. The background is set to the brand orange allowing consumers to know they are on the Just Eat platform.<br /><br />Within the code we import the content.js file and call the data through to the relevant places.</p>
           </div>
         </div>
 
@@ -177,9 +177,9 @@ export default function Home(props) {
                 <Image src="/images/jet-dds/jet-dds-contentvideo.png"
                     height={419}
                     width={735}
-                    alt="content.json showing video ids"
+                    alt="content.js showing video ids"
                 />
-                <span className={styles.caption}>content.json file showing the video Ids</span>
+                <span className={styles.caption}>content.js file showing the video Ids</span>
             </SwiperSlide>
             <SwiperSlide>
                 <Image src="/images/jet-dds/jet-dds-codevideo.png"
@@ -202,7 +202,7 @@ export default function Home(props) {
           </div>
           <div className={styles.content}>
             <h4>Watch the Video & Read the Lyrics<span>:</span></h4>
-            <p>The third and fourth sections of the landing page focus on the advert itself, allowing consumers to watch the video and read the lyrics to the song.<br /><br />The video is a youtube embed and it pulls the ID from the content.json file, allowing for each market to have its own advert in the local language.</p>
+            <p>The third and fourth sections of the landing page focus on the advert itself, allowing consumers to watch the video and read the lyrics to the song.<br /><br />The video is a youtube embed and it pulls the ID from the content.js file, allowing for each market to have its own advert in the local language.</p>
           </div>
         </div>
 
@@ -243,9 +243,9 @@ export default function Home(props) {
                   src='/images/jet-dds/jet-dds-contentfood.png'
                   height={419}
                   width={735}
-                  alt="content.json file showing the food data"
+                  alt="content.js file showing the food data"
                 />
-                <span className={styles.caption}>Content.json file showing the food data</span>
+                <span className={styles.caption}>Content.js file showing the food data</span>
               </SwiperSlide>
             </Swiper>
           </div>
@@ -289,16 +289,16 @@ export default function Home(props) {
                   // width={1612}
                   height={419}
                   width={735}
-                  alt="content.json file showing the words data"
+                  alt="content.js file showing the words data"
                 />
-                <span className={styles.caption}>Content.json file showing the words data</span>
+                <span className={styles.caption}>Content.js file showing the words data</span>
                 </SwiperSlide>
             </Swiper>
           </div>
           <div className={styles.content}>
             <h4>Hear from the people involved<span>:</span></h4>
             <p>The final section of the landing page allows consumers to hear from the people invloved in the project, including Christina Aguilera and Latto, using a carousel.<br /><br />
-            Within the code we call the content.json file and loop through the slides. This allows us to have different quotes per country.</p>
+            Within the code we call the content.js file and loop through the slides. This allows us to have different quotes per country.</p>
           </div>
         </div>
 
@@ -334,15 +334,15 @@ export default function Home(props) {
                   // width={1612}
                   height={419}
                   width={735}
-                  alt="content.json file showing the footer data"
+                  alt="content.js file showing the footer data"
                 />
-                <span className={styles.caption}>Content.json file showing the footer data</span>
+                <span className={styles.caption}>Content.js file showing the footer data</span>
                 </SwiperSlide>
             </Swiper>
           </div>
           <div className={styles.content}>
             <h4>Corporate footer<span>:</span></h4>
-            <p>One of the features of the landing page is the large footer that follows the same styling as the main footer on the <Link href="https://www.just-eat.co.uk/"><a target="_blank">Just Eat homepage</a></Link>.<br /><br />Within the content.json file I list the links and accordions, so I can easily edit the footer for multiple languages.</p>
+            <p>One of the features of the landing page is the large footer that follows the same styling as the main footer on the <Link href="https://www.just-eat.co.uk/"><a target="_blank">Just Eat homepage</a></Link>.<br /><br />Within the content.js file I list the links and accordions, so I can easily edit the footer for multiple languages.</p>
           </div>
         </div>
       </div>
