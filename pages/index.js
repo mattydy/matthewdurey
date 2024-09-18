@@ -92,7 +92,7 @@ export default function Home(props) {
           <div className={styles.homeContent}>
             <h1 className='large'><span>M</span>atthew <span>D</span>urey</h1>
             <h2 className='large'><span>W</span>eb <span>D</span>eveloper</h2>
-            <p className='large'>I'm a London based Web Developer specialising in custom built WordPress websites. I also have experience in Shopify, React and SEO.</p>
+            <p className='large'>I'm a web developer currently travelling around Australia, specialising in custom-built WordPress websites. I also have experience with Shopify, React, and SEO.</p>
             <div className={styles.buttons}>
               <Link href="/about">
                 <a className='white-button'>About</a>

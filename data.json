@@ -303,6 +303,19 @@
                     "getInTouch": "Looking for something similar?"
                 }
             ]
+        },
+        {
+            "id": 15,
+            "slug": "maternally-fit",
+            "title": "Maternally Fit",
+            "image": "/images/matfit/homepage.png",
+            "services": "WordPress, SEO, Web Design",
+            "color": "#fcb2a8",
+            "intro": "After Maternally Fit came under new ownership, the director approached me to update the website, which had not been refreshed since 2006. The new website marks an exciting fresh start for the business.",
+            "subHeading": "Providing pregnancy and postnatal fitness classes, online and in studios across London and Surrey",
+            "getInTouch": "Thinking of redesigning your website?",
+            "url": "https://maternallyfit.co.uk/",
+            "conclusion": "In summary, the new Maternally Fit website offers a modernized, user-friendly experience with enhanced visuals, improved navigation, and seamless connectivity through contact forms and social media integration. These updates ensure that users can easily explore our services and stay connected in real-time."
         }
     ]
 }
