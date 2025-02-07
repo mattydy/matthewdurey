@@ -64,6 +64,16 @@ body{
       text-align: left;
     }
   }
+
+  &--contact {
+    .footer {
+      @include screen-width('768') {
+        position: absolute;
+        bottom: -15px !important;
+        text-align: left;
+      }
+    }
+  }
 }
 
 .footer__center {
