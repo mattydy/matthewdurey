@@ -14,38 +14,38 @@ export default function Home() {
   const [liveCount, setLiveCount] = useState(0);
   const [color, setColor] = useState('#fff');
 
-  async function handleSubmit(e) {
-    e.preventDefault();
-    const formData = {};
-    Array.from(e.currentTarget.elements).forEach(field => {
-      if (!field.name ) return;
-      formData[field.name] = field.value;
-    });
-    if (formData['contact_me_by_fax_only'] == true) {
-      fetch('/api/mail', {
-        method: 'post',
-        body: JSON.stringify(formData)
-      }).then((res) => {
-        console.log("Response received");
-        if (res.status === 200) {
-           router.replace("/thank-you");
-        }
-    })
-    }
-  }
+  // async function handleSubmit(e) {
+  //   e.preventDefault();
+  //   const formData = {};
+  //   Array.from(e.currentTarget.elements).forEach(field => {
+  //     if (!field.name ) return;
+  //     formData[field.name] = field.value;
+  //   });
+  //   if (formData['contact_me_by_fax_only'] == true) {
+  //     fetch('/api/mail', {
+  //       method: 'post',
+  //       body: JSON.stringify(formData)
+  //     }).then((res) => {
+  //       console.log("Response received");
+  //       if (res.status === 200) {
+  //          router.replace("/thank-you");
+  //       }
+  //   })
+  //   }
+  // }
 
-  function updateCount(e) {
-    let value = e.target.value.length;
-    let countSpan = document.getElementsByClassName('messageCount');
+  // function updateCount(e) {
+  //   let value = e.target.value.length;
+  //   let countSpan = document.getElementsByClassName('messageCount');
 
-    setLiveCount(value);
+  //   setLiveCount(value);
 
-    if (value == 500) {
-      setColor('#8ed8f8');
-    } else if (value < 500) {
-      setColor('#fff');
-    }
-  }
+  //   if (value == 500) {
+  //     setColor('#8ed8f8');
+  //   } else if (value < 500) {
+  //     setColor('#fff');
+  //   }
+  // }
 
   <style jsx>{`
     span.messageCount {
@@ -61,7 +61,7 @@ export default function Home() {
       <h2>Interested in working together<span>?</span></h2>
       <div className={styles.innerPage}>
         <div className={styles.innerPage__text}>
-          <p>If you are interested in working together or wish to find out more about what I can help with, get in touch with me via <Link href="https://linkedin.com"><a target="_blank">LinkedIn</a></Link> & <Link href="https://www.instagram.com/matthew_durey/"><a target='_blank'>Instagram</a></Link>, <Link href="mailto:me@matthewdurey.com">email</Link> or by filling out the form opposite.</p>
+          <p>If you are interested in working together or wish to find out more about what I can help with, get in touch with me via <Link href="https://linkedin.com"><a target="_blank">LinkedIn</a></Link> & <Link href="https://www.instagram.com/matthew_durey/"><a target='_blank'>Instagram</a></Link>, or <Link href="mailto:me@matthewdurey.com?subject=Lets work together">email</Link>.</p>
           <p>I normally respond within 48 hours.</p>
           <div className={styles.innerPage__buttons}>
             <Link href="/about">
@@ -76,7 +76,7 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.innerPage__image}>
-        <form action="/" method="post" onSubmit={handleSubmit}>
+        {/* <form action="/" method="post" onSubmit={handleSubmit}>
           <div className={styles.smaller}>
               <div className={styles.group}>
                 <label htmlFor="name">Your Name<span>*</span>:</label>
@@ -104,11 +104,11 @@ export default function Home() {
           <span className={styles.messageCount} style={{color: color}}><span id="liveCount" style={{color: color}}>{liveCount}</span>/500</span>
           <input type="checkbox" name="contact_me_by_fax_only" value="1" style={{display: 'none'}} tabIndex="-1" autoComplete="off" />
           <button type="submit" className="white-button">Submit</button>
-        </form>
+        </form> */}
         </div>
       </div>
 
-      <div className="footer__left">
+      <div className="footer__left footer__left--contact">
           <Footer></Footer>
         </div>
     </div>
