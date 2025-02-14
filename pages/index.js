@@ -24,6 +24,11 @@ export default function Home(props) {
 
   return (
     <div>
+      <div class="promo">
+        <Link href="/free-web-consultancy">
+          <a>Get a Free Web Consultancy Session - Get in Touch Now!</a>
+        </Link>
+      </div>
       <div className="container container-large">
       <div className='background-circles'>
         <span className='circle circle--blue circle--large blue-top'></span>
@@ -91,8 +96,8 @@ export default function Home(props) {
       <section className={styles.homePage}>
           <div className={styles.homeContent}>
             <h1 className='large'><span>M</span>atthew <span>D</span>urey</h1>
-            <h2 className='large'><span>W</span>eb <span>D</span>eveloper</h2>
-            <p className='large'>I'm a web developer currently travelling around Australia, specialising in custom-built WordPress websites. I also have experience with Shopify, React, and SEO.</p>
+            <h2 className='large'><span>W</span>eb <span>D</span>eveloper <span>&</span> <span>C</span>onsultant</h2>
+            <p className='large'>I'm a web developer and consultant currently travelling around Australia, helping businesses create powerful online experiences. I specialise in custom-built WordPress websites with additional experience in Shopify, React, and SEO.</p>
             <div className={styles.buttons}>
               <Link href="/about">
                 <a className='white-button'>About</a>
