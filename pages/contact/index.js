@@ -26,7 +26,6 @@ export default function Home() {
         method: 'post',
         body: JSON.stringify(formData)
       }).then((res) => {
-        console.log("Response received");
         if (res.status === 200) {
            router.replace("/thank-you");
         }
