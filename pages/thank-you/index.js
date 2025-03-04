@@ -17,7 +17,7 @@ export default function Home() {
       <h2>Thank you for reaching out<span>,</span> I will be in touch within the next 48 hours<span>.</span></h2>
       <div className={styles.innerPage}>
         <div className={styles.innerPage__text}>
-            <p>In the meantime why not connect with me via <Link href="https://linkedin.com">Linkedin</Link>, or have a look through the rest of my website using the buttons below.</p>
+            <p>In the meantime why not connect with me via <Link href="https://www.linkedin.com/in/matthew-durey-2511a6142/"><a target="_blank">Linkedin</a></Link> & <Link href="https://www.instagram.com/matthew_durey/"><a target='_blank'>Instagram</a></Link>, or have a look through the rest of my website using the buttons below.</p>
           <div className={styles.innerPage__buttons}>
             <Link href="/about">
               <a className='white-button'>About</a>
