@@ -92,9 +92,9 @@
       margin-bottom: 0;
     }
 
-    // @include screen-width('992') {
-    //   margin-bottom: 15px;
-    // }
+    button {
+      cursor: pointer;
+    }
   }
 
   &__fullText {

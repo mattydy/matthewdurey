@@ -20,6 +20,10 @@ body{
   max-width: 1255px;
   margin: 0 auto;
 
+  @include screen-width('768') {
+    bottom: 0;
+  }
+
   &.jsx-b3e1b6a7c9b96113 {
     text-align: left;
     bottom: 25px;
@@ -79,6 +83,7 @@ body{
 .footer__center {
   .footer {
       text-align: center;
+      bottom: 25px;
   }
 }
 .background-circles {
@@ -688,4 +693,19 @@ p {
       }
     }
   }
+}
+
+.promo {
+  background: #8ed8f8;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 10px 15px;
+  z-index: 1;
+   
+    p, a {
+      color: #222222;
+    }
 }
