@@ -60,7 +60,7 @@ export default function Home() {
       <h2>Interested in working together<span>?</span></h2>
       <div className={styles.innerPage}>
         <div className={styles.innerPage__text}>
-          <p>If you are interested in working together or wish to find out more about what I can help with, fill out the form opposite or get in touch with me via <Link href="https://linkedin.com"><a target="_blank">LinkedIn</a></Link> & <Link href="https://www.instagram.com/matthew_durey/"><a target='_blank'>Instagram</a></Link>.</p>
+          <p>If you are interested in working together or wish to find out more about what I can help with, fill out the form opposite or get in touch with me via <Link href="https://www.linkedin.com/in/matthew-durey-2511a6142/"><a target="_blank">LinkedIn</a></Link> & <Link href="https://www.instagram.com/matthew_durey/"><a target='_blank'>Instagram</a></Link>.</p>
           <p>I normally respond within 48 hours.</p>
           <div className={styles.innerPage__buttons}>
             <Link href="/about">

@@ -22,8 +22,6 @@ export default function Home(props) {
   const posts = props.portfolio;
   posts.sort(sortBy('-id'))
 
-  // console.log(process.env.NEXT_PUBLIC_SENDGRID_API_KEY);
-
   return (
     <div>
       <div class="promo">
