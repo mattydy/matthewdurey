@@ -1,8 +1,10 @@
 const mail = require('@sendgrid/mail');
 
-mail.setApiKey(process.env.SENDGRID_API_KEY);
+mail.setApiKey(process.env.NEXT_PUBLIC_SENDGRID_API_KEY);
 
-export default (req, res) => {
+// console.log(process.env.NEXT_PUBLIC_SENDGRID_API_KEY);
+
+export default async (req, res) => {
     const body = JSON.parse(req.body);
 
     const message = `
@@ -21,7 +23,15 @@ export default (req, res) => {
         html: message.replace(/\r\n/g, '<br>')
     }
 
-    mail.send(data);
+    try {
+        await mail.send(data)
+        res.status(200).send('Message Sent!')
+    } catch (error) {
+        console.log('ERROR', error)
+        res.status(400).send('Message not sent')
+    }
+    
+    // mail.send(data);
 
-    res.status(200).json({status: 'jinokml'});
+    // res.status(200).json({status: 'jinokml'});
 }
