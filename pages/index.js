@@ -24,11 +24,6 @@ export default function Home(props) {
 
   return (
     <div>
-      <div class="promo">
-        <Link href="/free-web-consultancy">
-          <a>Get a Free Web Consultancy Session - Get in Touch Now!</a>
-        </Link>
-      </div>
       <div className="container container-large">
       <div className='background-circles'>
         <span className='circle circle--blue circle--large blue-top'></span>
