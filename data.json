@@ -316,6 +316,19 @@
             "getInTouch": "Thinking of redesigning your website?",
             "url": "https://maternallyfit.co.uk/",
             "conclusion": "In summary, the new Maternally Fit website offers a modernized, user-friendly experience with enhanced visuals, improved navigation, and seamless connectivity through contact forms and social media integration. These updates ensure that users can easily explore our services and stay connected in real-time."
+        },
+        {
+            "id": 16,
+            "slug": "cloke",
+            "title": "Cloke & Co",
+            "image": "/images/cloke/homepage.png",
+            "services": "WordPress, SEO, Web Design, Web Consultancy",
+            "color": "#003869",
+            "intro": "I was approached by the owner of Cloke & Co as they wanted to update their website as it had not been updated since 2014. The site is small in size as it is used mainly for information and to give the company an online presence.",
+            "subHeading": "Cloke & Co is a small independent firm of Chartered Certified Accountants and Registered Auditors based in the City of London",
+            "getInTouch": "Having issues with your webiste?",
+            "url": "https://maternallyfit.co.uk/",
+            "conclusion": "In summary, the new Maternally Fit website offers a modernized, user-friendly experience with enhanced visuals, improved navigation, and seamless connectivity through contact forms and social media integration. These updates ensure that users can easily explore our services and stay connected in real-time."
         }
     ]
 }
