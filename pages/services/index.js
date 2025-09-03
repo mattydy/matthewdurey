@@ -31,7 +31,7 @@ export default function Home() {
                 <h3>WordPress<span>:</span></h3>
                 <p>Are you looking for an in-depth bespoke site to promote your business, or perhaps you want to create a blog of some kind? If so WordPress is the solution for you.<br></br><br></br>Using custom fields and the Gutenburg Editor, you can create and manage content for your site really easily. All Wordpress websites also come with a customised 'How To' document to show you the best way of working and how to get the most out of your website.</p>
                 <h3>Static Build Sites<span>:</span></h3>
-                <p>Are you a small business looking for an online presence but not wanting a full blown website? Then static websites are perfect for you.<br></br><br></br>These sites are typically quick, cheap and easy to build as they require little work. The content rarely changes and they can be perfect to give customers some simple info that they might require before visiting the business in person.</p>
+                <p>Are you a small business looking for an online presence but not wanting a full blown website? Then static websites are perfect for you.<br></br><br></br>These sites are typically quick, cheap and easy to build. The content rarely changes and they can be perfect to give customers some simple info that they might require before visiting the business in person.</p>
                 <h3>Web Consultancy<span>:</span></h3>
                 <p>Need expert guidance on how to improve your website's performance, SEO, or user experience? I offer web consultancy services to help you make informed decisions about your online presence. I can assist with:
                 <ul>
