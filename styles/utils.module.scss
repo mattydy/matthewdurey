@@ -62,6 +62,10 @@
     @include screen-width('768') {
       max-width: 425px;
     }
+
+    a {
+      color: #8ed8f8;
+    }
   }
 }
 

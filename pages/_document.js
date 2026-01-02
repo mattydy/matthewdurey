@@ -17,11 +17,6 @@ export default function Document() {
       <meta name="msapplication-TileColor" content="#da532c"/>
 
       </Head>
-      <div class="promo">
-        <Link href="/free-web-consultancy">
-          <a>Get a Free Web Consultancy Session - Get in Touch Now!</a>
-        </Link>
-      </div>
       <body className='body'>
         <div className="menuNav">
           <ul>
