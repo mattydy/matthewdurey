@@ -57,7 +57,7 @@ export default function Home(props) {
               <option value="Web Design">Web Design</option>
             </select>
           </div>
-          )}
+
         </div>
 
         <div className={styles.portfolio}>
