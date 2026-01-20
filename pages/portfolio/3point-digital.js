@@ -63,12 +63,12 @@ export default function Home(props) {
             >
             <SwiperSlide>
                 <Image
-                  src='/images/3point/homepage-animation.gif'
+                  src='/images/3point/homepage.png'
                   height={419}
                   width={735}
                   alt="homepage animations"
                 />
-                <span className={styles.caption}>Homepage anmiations showing the floating feel</span>
+                <span className={styles.caption}>Background circles move on scroll</span>
             </SwiperSlide>
             </Swiper>
 
