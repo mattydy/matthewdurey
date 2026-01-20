@@ -25,7 +25,6 @@ export default function Home(props) {
 
   const [selectedSortByState, setSelectedSortByState] = useState('-id');
   const [filterList, setFilterList] = useState('all');
-  const [filterType, setFilterType] = useState('all');
 
   posts.sort(sortBy(selectedSortByState));
 
@@ -35,16 +34,9 @@ export default function Home(props) {
         <h1><span>P</span>ortfolio</h1>
         <MenuToggle></MenuToggle>
 
-        <h2>See a collection of work<span>,</span> including websites <span>&</span> plugins<span>.</span></h2>
+        <h2>See my collection of works<span>.</span></h2>
 
         <div className={styles.portfolioFilters}>
-          {/* <div className={styles.typeFilters}>
-            <p onClick={() => setFilterType('all')}>All</p>
-            <p onClick={() => setFilterType('website')}>Websites</p>
-            <p onClick={() => setFilterType('plugin')}>Plugins</p>
-          </div> */}
-
-
           <div className={styles.filter}>
             <p>Sort By<span>:</span></p>
             <select id="sortBySelect" name="sortBySelect" defaultValue='-id' onChange={(e) => {setSelectedSortByState(e.target.value)}}>
@@ -55,7 +47,6 @@ export default function Home(props) {
             </select>
           </div>
 
-          {filterType !== 'plugin' && (
           <div className={styles.filter}>
             <p>Filter By<span>:</span></p>
             <select id="filterBySelect" name="filterBySelect" defaultValue='all' onChange={(e) => {setFilterList(e.target.value)}}>
@@ -75,14 +66,7 @@ export default function Home(props) {
 
           posts.map((posts) => (
 
-            <div key={posts.id} style={{
-              display:
-                (filterType === 'all' || posts.type === filterType) &&
-                (filterType === 'plugin' || filterList === 'all' || posts.services.includes(filterList))
-                  ? 'block'
-                  : 'none'
-            }}
-            > 
+            <div key={posts.id} style={{display: posts.services.includes(filterList) || filterList == 'all' ? 'block' : 'none'}}> 
               <style jsx>{`
               a:hover p {
                 color: ${posts.color} !important;
