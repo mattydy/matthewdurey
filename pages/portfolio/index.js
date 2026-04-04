@@ -51,10 +51,11 @@ export default function Home(props) {
             <p>Filter By<span>:</span></p>
             <select id="filterBySelect" name="filterBySelect" defaultValue='all' onChange={(e) => {setFilterList(e.target.value)}}>
               <option value="all">Show All</option>
-              <option value="WordPress">WordPress</option>
               <option value="SEO">SEO</option>
+              <option value="Shopify">Shopify</option>
               <option value="React">React</option>
               <option value="Web Design">Web Design</option>
+              <option value="WordPress">WordPress</option>
             </select>
           </div>
 
