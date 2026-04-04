@@ -346,6 +346,34 @@
             "getInTouch": "Need a website refresh?",
             "url": "https://3point.digital.dureystaging.com/",
             "conclusion": "The Triple Point Digital website demonstrates a modern, performance-focused approach to web design and development, with a strong emphasis on brand identity, subtle animation, and clear user journeys. The project highlights how thoughtful design decisions and lightweight development can combine to create an engaging and effective digital experience."
+        },
+        {
+            "id": 17,
+            "slug": "gc-group-booking",
+            "title": "The GC Group - Booking Forms",
+            "image": "/images/gc-group-booking/gc-group-booking.png",
+            "services": "React",
+            "type": "website",
+            "color": "#d31a2f",
+            "intro": "While working for The Goldcrest Group I developed a booking form that allows customers to schedule appointments for in-home consultations. Users can select a preferred date and time, after which confirmation emails are sent to the customer and Goldcrest staff, as well as writing the booking information to a google spreadsheet via an API call. This form is used across multiple group websites, with dynamic content tailored to each brand.",
+            "subHeading": "Booking forms for the Goldcrest Group, allowing customers to book appointments",
+            "getInTouch": "Wanting to integrate something like this?",
+            "url": "https://book.goldcrest-blinds.co.uk",
+            "conclusion": "The Goldcrest Group booking forms allow users to book appointments. The use of various API calls allows for easy management of data."
+        },
+        {
+            "id": 18,
+            "slug": "blinds-4-you",
+            "title": "Blinds 4 You",
+            "image": "/images/b4u/homepage.png",
+            "services": "Shopify",
+            "type": "website",
+            "color": "#d2fff2",
+            "intro": "While working for the Goldcrest group, I carried out ongoing maintenance, performace updates and techincal fixes to the Blinds 4 You website.",
+            "subHeading": "A UK-based e-commerce retailer specialising in made-to-measure blinds and window furnishings",
+            "getInTouch": "Wanting to integrate somethign like this?",
+            "url": "https://www.blinds4you.co.uk",
+            "conclusion": "By carrying out work on the Blinds 4 You website I've helped add additional features, speed up performance and improve SEO."
         }
       ]
 }
