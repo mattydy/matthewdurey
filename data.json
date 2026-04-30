@@ -374,6 +374,20 @@
             "getInTouch": "Wanting to integrate somethign like this?",
             "url": "https://www.blinds4you.co.uk",
             "conclusion": "By carrying out work on the Blinds 4 You website I've helped add additional features, speed up performance and improve SEO."
+        },
+        {
+            "id": 19,
+            "slug": "gc-group-rebrand",
+            "title": "The GC Group - Rebrand",
+            "image": "/images/gc-group-rebrand/homepage-grampian.png",
+            "services": "Shopify",
+            "type": "website",
+            "color": "#499dc1",
+            "intro": "While working for the Goldcrest group, we carried out a rebranding of the traditional lead generation sites, unifing the branding and codebase, making it easier to manage the multiple sites.",
+            "subHeading": "A long-established, family-run business supplying quality made-to-measure blinds, curtains and shutters",
+            "getInTouch": "Wanting to rebrand?",
+            "url": "https://www.grampian-blinds.co.uk/",
+            "conclusion": "Rebranding the websites gives us a chance to align the codebases, meaning a cleaner build."
         }
       ]
 }
